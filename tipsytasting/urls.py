@@ -19,8 +19,10 @@ from django.urls import path
 from tipsytastingapi.views import register_user, login_user
 from django.conf.urls import include
 from rest_framework import routers
+from tipsytastingapi.views import CocktailView
 
 router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'cocktails', CocktailView, 'cocktail')
 
 
 
