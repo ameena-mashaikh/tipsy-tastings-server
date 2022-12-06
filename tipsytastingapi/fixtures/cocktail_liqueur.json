@@ -1,0 +1,11 @@
+[
+    {
+        "model": "tipsytastingapi.cocktailLiqueur",
+        "pk": 1,
+        "fields": {
+            "cocktail": 1,
+            "liqueur": 1,
+            "quantity": 0.5
+        }
+    }
+]

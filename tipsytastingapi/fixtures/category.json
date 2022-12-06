@@ -1,0 +1,16 @@
+[
+    {
+        "model": "tipsytastingapi.category",
+        "pk": 1,
+        "fields": {
+            "label": "Alcoholic"
+        }
+    },
+    {
+        "model": "tipsytastingapi.category",
+        "pk": 2,
+        "fields": {
+            "label": "Non-Alcoholic"
+        }
+    }
+]
