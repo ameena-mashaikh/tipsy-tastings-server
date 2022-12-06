@@ -1,0 +1,17 @@
+[
+    {
+        "model": "tipsytastingapi.stapleIngredient",
+        "pk": 1,
+        "fields": {
+           "name": "Sour Mix"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleIngredient",
+        "pk": 2,
+        "fields": {
+           "name": "Cola"
+        }
+    }
+
+]

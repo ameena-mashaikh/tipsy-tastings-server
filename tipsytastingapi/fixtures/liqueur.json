@@ -1,0 +1,23 @@
+[
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 1,
+        "fields": {
+           "name": "Triple Sec"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 2,
+        "fields": {
+           "name": "Midori"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 3,
+        "fields": {
+           "name": "Blue Curacao"
+        }
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 1,
+        "fields": {
+           "name": "Long Island Iced Tea",
+           "category": 1,
+           "recipe": "½ ounce Vodka, ½ ounce Rum, ½ ounce Gin, ½ ounce Tequila, ½ ounce Triple Sec, 1 ounce sour mix, 1 ounce cola",
+           "image": "https://www.simplejoy.com/wp-content/uploads/2021/04/long-island-iced-tea.jpg",
+           "mixologist": 1,
+           "liquors": [1, 4, 5, 6],
+           "liqueurs": [1],
+           "staple_ingredients": [1, 2]
+
+        }
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 1,
+        "fields": {
+           "name": "Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 2,
+        "fields": {
+           "name": "White Rum"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 3,
+        "fields": {
+           "name": "Dark Rum"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 4,
+        "fields": {
+           "name": "Rum"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 5,
+        "fields": {
+           "name": "Tequila"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 6,
+        "fields": {
+           "name": "Gin"
+        }
+    }
+]
