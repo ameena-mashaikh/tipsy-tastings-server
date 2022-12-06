@@ -1,11 +1,12 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Python: Django",
             "type": "python",
             "request": "launch",
-            "program": "tipsy-tastings-server/manage.py",
+            "program": "${workspaceFolder}/manage.py",
             "args": ["runserver"],
             "django": true,
             "autoReload":{
