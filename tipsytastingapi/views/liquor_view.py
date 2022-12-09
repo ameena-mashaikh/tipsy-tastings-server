@@ -38,4 +38,4 @@ class LiquorSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
     class Meta:
         model=Liquor
-        fields=("id", "name", )
+        fields=("id", "label", )
