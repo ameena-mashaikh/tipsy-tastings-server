@@ -50,8 +50,7 @@ def register_user(request):
         username=request.data['username'],
         password=request.data['password'],
         first_name=request.data['first_name'],
-        last_name=request.data['last_name'],
-        email = request.data['email']
+        last_name=request.data['last_name']
 
     )
 
@@ -59,7 +58,7 @@ def register_user(request):
     mixologist = Mixologist.objects.create(
         bio=request.data['bio'],
         user=new_user,
-        image = request.data['image']
+        #image = request.data['image']
     )
 
     # Use the REST Framework's token generator on the new user account

@@ -5,7 +5,7 @@
         "fields": {
             "cocktail": 1,
             "staple_ingredient": 1,
-            "quantity": 1
+            "quantity": 1.0
         }
     },
     {
@@ -14,7 +14,7 @@
         "fields": {
             "cocktail": 1,
             "staple_ingredient": 2  ,
-            "quantity": 1
+            "quantity": 1.0
         }
     }
 ]

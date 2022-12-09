@@ -5,7 +5,8 @@
         "fields": {
             "name": "Long Island Iced Tea",
             "cocktail": 1,
-            "caption": "This is a Long Island Iced Tea! It looks delicious, but it packs a punch. You have been warned!"
+            "caption": "This is a Long Island Iced Tea! It looks delicious, but it packs a punch. You have been warned!",
+            "mixologist": 1
         }
     }
 ]

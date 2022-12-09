@@ -10,3 +10,5 @@ from .liqueur import Liqueur
 from .liquor import Liquor
 from .mixologist import Mixologist
 from .staple_ingredient import StapleIngredient
+
+#./seed_database.sh

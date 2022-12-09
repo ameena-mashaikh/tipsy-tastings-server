@@ -19,7 +19,7 @@ class CocktailView(ViewSet):
         cocktails = Cocktail.objects.all()
 
         if "mycocktails" in request.query_params:
-            cocktails = Cocktail.objects.filter(mixologist = self.request.user.id)
+            cocktails = Cocktail.objects.filter(created_by_mixologist = self.request.user.id)
 
         serializer = CocktailSerializer(cocktails, many = True)
         return Response(serializer.data)
@@ -28,5 +28,5 @@ class CocktailSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
     class Meta:
         model=Cocktail
-        fields=("id", "name", "category", "recipe", "image", "mixologist", "liquors", "liqueurs", "staple_ingredients", )
+        fields=("id", "name", "category", "recipe", "image", "created_by_mixologist", "liquors", "liqueurs", "staple_ingredients", )
         depth = 1

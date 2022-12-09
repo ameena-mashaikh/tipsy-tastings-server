@@ -1,4 +1,6 @@
 #!/bin/bash
+#./seed_database.sh
+
 
 rm db.sqlite3
 rm -rf ./tipsytastingapi/migrations
