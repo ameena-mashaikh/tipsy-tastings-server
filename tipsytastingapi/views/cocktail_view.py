@@ -24,9 +24,21 @@ class CocktailView(ViewSet):
         serializer = CocktailSerializer(cocktails, many = True)
         return Response(serializer.data)
 
+
+    def retrieve(self, request, pk):
+        """Handle GET requests for single game
+
+        Returns:
+            Response -- JSON serialized game 
+        """
+
+        cocktail = Cocktail.objects.get(pk=pk)
+        serializer = CocktailSerializer(cocktail)
+        return Response(serializer.data)
+
 class CocktailSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
     class Meta:
         model=Cocktail
         fields=("id", "name", "category", "recipe", "image", "created_by_mixologist", "liquors", "liqueurs", "staple_ingredients", )
-        depth = 1
+        depth = 2   
