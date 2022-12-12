@@ -19,14 +19,15 @@ from django.urls import path
 from tipsytastingapi.views import register_user, login_user
 from django.conf.urls import include
 from rest_framework import routers
-from tipsytastingapi.views import CocktailView, LiquorView, LiqueurView, StapleIngredientView
-
+from tipsytastingapi.views import CocktailView, LiquorView, LiqueurView, StapleIngredientView, CategoryView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'cocktails', CocktailView, 'cocktail')
 router.register(r'liquors', LiquorView, 'liquor')
 router.register(r'liqueurs', LiqueurView, 'liqueur')
 router.register(r'stapleingredients', StapleIngredientView, 'stapleingredient')
+router.register(r'categories', CategoryView, 'category')
+
 
 
 

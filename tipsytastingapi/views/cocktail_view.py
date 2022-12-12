@@ -4,7 +4,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
 from rest_framework.decorators import action
-from tipsytastingapi.models import Cocktail
+from tipsytastingapi.models import Cocktail, CocktailLiquor, CocktailLiqueur, CocktailStapleIngredient, Category, Mixologist
 
 class CocktailView(ViewSet):
     """Tipsy tastings view"""
@@ -25,6 +25,9 @@ class CocktailView(ViewSet):
         return Response(serializer.data)
 
 
+
+
+
     def retrieve(self, request, pk):
         """Handle GET requests for single game
 
@@ -35,6 +38,33 @@ class CocktailView(ViewSet):
         cocktail = Cocktail.objects.get(pk=pk)
         serializer = CocktailSerializer(cocktail)
         return Response(serializer.data)
+
+
+
+
+
+    def create(self, request):
+        """Handle POST operations
+
+        Returns:
+        Response -- JSON serialized Cocktail Liquor instance"""
+        category = Category.objects.get(pk =request.data["category"])
+        mixologist = Mixologist.objects.get(user=request.auth.user)
+        
+
+        cocktail = Cocktail.objects.create(
+            name = request.data["name"],
+            category = category,
+            recipe = request.data["recipe"],
+            image = request.data["image"],
+            created_by_mixologist = mixologist
+
+        )
+        serializer = CocktailSerializer(cocktail)
+        return Response(serializer.data , status=status.HTTP_201_CREATED)
+
+
+
 
 class CocktailSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
