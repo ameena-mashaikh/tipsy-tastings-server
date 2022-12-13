@@ -46,14 +46,14 @@ class CocktailPostView(ViewSet):
 
         Returns:
         Response -- JSON serialized Cocktail Liquor instance"""
-        cocktail = Cocktail.objects.get(pk =request.data["cocktailId"])
+        cocktail = Cocktail.objects.get(pk =request.data["cocktail"])
         
 
-        cocktail = Cocktail.objects.create(
+        cocktailpost = CocktailPost.objects.create(
             cocktail = cocktail,
             caption = request.data['caption']
         )
-        serializer = CocktailPostSerializer(cocktail)
+        serializer = CocktailPostSerializer(cocktailpost)
         return Response(serializer.data , status=status.HTTP_201_CREATED)
 
 

@@ -54,3 +54,4 @@ class CocktailStapleIngredientSerializer(serializers.ModelSerializer):
     class Meta:
         model=CocktailStapleIngredient
         fields=("id", "cocktail", "staple_ingredient", )
+        depth = 1

@@ -54,3 +54,4 @@ class CocktailLiquorSerializer(serializers.ModelSerializer):
     class Meta:
         model=CocktailLiquor
         fields=("id", "cocktail", "liquor", )
+        depth = 1
