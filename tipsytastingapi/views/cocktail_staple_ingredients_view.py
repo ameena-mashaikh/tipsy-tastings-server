@@ -4,37 +4,37 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
 from rest_framework.decorators import action
-from tipsytastingapi.models import CocktailLiquor, Cocktail, Liquor
+from tipsytastingapi.models import CocktailStapleIngredient, Cocktail, StapleIngredient
 
-class CocktailLiquorView(ViewSet):
+class CocktailStapleIngredientView(ViewSet):
     """Tipsy tastings view"""
 
     def list(self, request): 
-        """Handle GET requests to get cocktail's liquor
+        """Handle GET requests to get cocktail's staple ingredients
         
         Returns:
             Response -- JSON serialized event
         """
 
-        cocktail_liquors = CocktailLiquor.objects.all()
+        cocktail_staples = CocktailStapleIngredient.objects.all()
 
 
-        serializer = CocktailLiquorSerializer(cocktail_liquors, many = True)
+        serializer = CocktailStapleIngredientSerializer(cocktail_staples, many = True)
         return Response(serializer.data)
 
     def create(self, request):
         """Handle POST operations
 
         Returns:
-        Response -- JSON serialized Cocktail Liquor instance"""
+        Response -- JSON serialized Cocktail Staple Ingredient instance"""
         
         cocktail = Cocktail.objects.get(pk=request.data["cocktail"])
-        liquor = Liquor.objects.get(pk = request.data["liquor"])
-        cocktail_liquor = CocktailLiquor.objects.create(
+        staple_ingredient = StapleIngredient.objects.get(pk = request.data["staple_ingredient"])
+        cocktail_staple = CocktailStapleIngredient.objects.create(
             cocktail=cocktail,
-            liquor = liquor,
-        )
-        serializer = CocktailLiquorSerializer(cocktail_liquor)
+            staple_ingredient = staple_ingredient
+            )
+        serializer = CocktailStapleIngredientSerializer(cocktail_staple)
         return Response(serializer.data , status=status.HTTP_201_CREATED)
 
 
@@ -49,8 +49,8 @@ class CocktailLiquorView(ViewSet):
     #     serializer = CocktailSerializer(cocktail)
     #     return Response(serializer.data)
 
-class CocktailLiquorSerializer(serializers.ModelSerializer):
-    """JSON serializer for cocktails."""
+class CocktailStapleIngredientSerializer(serializers.ModelSerializer):
+    """JSON serializer for a cocktail's staple ingredients."""
     class Meta:
-        model=CocktailLiquor
-        fields=("id", "cocktail", "liquor", )
+        model=CocktailStapleIngredient
+        fields=("id", "cocktail", "staple_ingredient", )

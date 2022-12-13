@@ -20,6 +20,7 @@ from tipsytastingapi.views import register_user, login_user
 from django.conf.urls import include
 from rest_framework import routers
 from tipsytastingapi.views import CocktailView, LiquorView, LiqueurView, StapleIngredientView, CategoryView, CocktailPostView
+from tipsytastingapi.views import CocktailLiquorView, CocktailLiqueurView, CocktailStapleIngredientView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'cocktails', CocktailView, 'cocktail')
@@ -28,6 +29,12 @@ router.register(r'liqueurs', LiqueurView, 'liqueur')
 router.register(r'stapleingredients', StapleIngredientView, 'stapleingredient')
 router.register(r'categories', CategoryView, 'category')
 router.register(r'cocktailposts', CocktailPostView, 'cocktailpost')
+router.register(r'cocktailliqueurs', CocktailLiqueurView, 'cocktailliqueur')
+router.register(r'cocktailliquors', CocktailLiquorView, 'cocktailliquor')
+router.register(r'cocktailstapleingredients', CocktailStapleIngredientView, 'cocktailstapleingredient')
+
+
+
 
 
 
