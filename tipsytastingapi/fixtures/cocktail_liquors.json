@@ -1,0 +1,34 @@
+[
+    {
+        "model": "tipsytastingapi.cocktailliquor",
+        "pk": 1,
+        "fields": {
+            "cocktail": 1,
+            "liquor": 1
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktailliquor",
+        "pk": 2,
+        "fields": {
+            "cocktail": 1,
+            "liquor": 4
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktailliquor",
+        "pk": 3,
+        "fields": {
+            "cocktail": 1,
+            "liquor": 5
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktailliquor",
+        "pk": 4,
+        "fields": {
+            "cocktail": 1,
+            "liquor": 6
+        }
+    }
+]
