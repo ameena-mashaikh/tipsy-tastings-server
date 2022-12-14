@@ -33,8 +33,8 @@ class CocktailPostView(ViewSet):
             Response -- JSON serialized game 
         """
 
-        cocktail = Cocktail.objects.get(pk=pk)
-        serializer = CocktailPostSerializer(cocktail)
+        cocktail_post = CocktailPost.objects.get(pk=pk)
+        serializer = CocktailPostSerializer(cocktail_post)
         return Response(serializer.data)
 
 
@@ -46,14 +46,14 @@ class CocktailPostView(ViewSet):
 
         Returns:
         Response -- JSON serialized Cocktail Liquor instance"""
-        cocktail = Cocktail.objects.get(pk =request.data["cocktail"])
+        cocktail = Cocktail.objects.get(pk=request.data["cocktail"])
         
 
-        cocktailpost = CocktailPost.objects.create(
+        cocktail_post = CocktailPost.objects.create(
             cocktail = cocktail,
             caption = request.data['caption']
         )
-        serializer = CocktailPostSerializer(cocktailpost)
+        serializer = CocktailPostSerializer(cocktail_post)
         return Response(serializer.data , status=status.HTTP_201_CREATED)
 
 
