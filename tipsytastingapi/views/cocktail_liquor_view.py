@@ -38,6 +38,19 @@ class CocktailLiquorView(ViewSet):
         return Response(serializer.data , status=status.HTTP_201_CREATED)
 
 
+    def update(self, request, pk):
+        """Handle PUT requests for cocktail liquor
+
+        Returns:
+            Response -- Empty body with 204 status code
+        """
+
+        cocktail_liquor = CocktailLiquor.objects.get(pk=pk)
+        cocktail_liquor.cocktail = Cocktail.objects.get(pk =request.data["cocktail"])
+        cocktail_liquor.liquor = Liquor.objects.get(pk =request.data["liquor"])
+        cocktail_liquor.save()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
     # def retrieve(self, request, pk):
     #     """Handle GET requests for single game
 

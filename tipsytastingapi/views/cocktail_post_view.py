@@ -57,6 +57,20 @@ class CocktailPostView(ViewSet):
         return Response(serializer.data , status=status.HTTP_201_CREATED)
 
 
+    
+    def update(self, request, pk):
+        """Handle PUT requests for a cocktail
+
+        Returns:
+            Response -- Empty body with 204 status code
+        """
+
+        cocktail_post = CocktailPost.objects.get(pk=pk)
+        cocktail_post.cocktail = Cocktail.objects.get(pk =request.data["cocktail"])
+        cocktail_post.caption = request.data["caption"]
+        cocktail_post.save()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
 
 
 class CocktailPostSerializer(serializers.ModelSerializer):

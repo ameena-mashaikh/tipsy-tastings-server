@@ -49,6 +49,21 @@ class CocktailLiqueurView(ViewSet):
     #     serializer = CocktailSerializer(cocktail)
     #     return Response(serializer.data)
 
+
+    def update(self, request, pk):
+        """Handle PUT requests for cocktail liqueur
+
+        Returns:
+            Response -- Empty body with 204 status code
+        """
+
+        cocktail_liqueur = CocktailLiqueur.objects.get(pk=pk)
+        cocktail_liqueur.cocktail = Cocktail.objects.get(pk =request.data["cocktail"])
+        cocktail_liqueur.liqueur = Liqueur.objects.get(pk =request.data["liqueur"])
+        cocktail_liqueur.save()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
+
 class CocktailLiqueurSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
     class Meta:

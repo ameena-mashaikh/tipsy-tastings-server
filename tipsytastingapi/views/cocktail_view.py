@@ -65,10 +65,26 @@ class CocktailView(ViewSet):
 
 
 
+    def update(self, request, pk):
+        """Handle PUT requests for a cocktail
+
+        Returns:
+            Response -- Empty body with 204 status code
+        """
+
+        cocktail = Cocktail.objects.get(pk=pk)
+        cocktail.category = Category.objects.get(pk =request.data["category"])
+        #cocktail.created_by_mixologist = Mixologist.objects.get(user=request.auth.user)
+        cocktail.name = request.data["name"]
+        cocktail.recipe = request.data["recipe"]
+        cocktail.image = request.data["image"]
+        cocktail.save()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
 
 class CocktailSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
     class Meta:
         model=Cocktail
-        fields=("id", "name", "category", "recipe", "image", "created_by_mixologist", "liquors", "liqueurs", "staple_ingredients", )
+        fields=("id", "name", "category", "recipe", "image", "created_by_mixologist", "liquors", "liqueurs", "staple_ingredients", "post_cocktail" )
         depth = 2   
