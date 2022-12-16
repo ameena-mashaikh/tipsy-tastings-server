@@ -17,6 +17,9 @@ class CocktailLiqueurView(ViewSet):
         """
 
         cocktail_liqueurs = CocktailLiqueur.objects.all()
+        if "cocktail" in request.query_params:
+            query_value = request.query_params["cocktail"]
+            cocktail_liqueurs = cocktail_liqueurs.filter(cocktail = query_value)
 
 
         serializer = CocktailLiqueurSerializer(cocktail_liqueurs, many = True)
@@ -38,16 +41,16 @@ class CocktailLiqueurView(ViewSet):
         return Response(serializer.data , status=status.HTTP_201_CREATED)
 
 
-    # def retrieve(self, request, pk):
-    #     """Handle GET requests for single game
+    def retrieve(self, request, pk):
+        """Handle GET requests for single cocktail liqueur
 
-    #     Returns:
-    #         Response -- JSON serialized game 
-    #     """
+        Returns:
+            Response -- JSON serialized liqueur 
+        """
 
-    #     cocktail = Cocktail.objects.get(pk=pk)
-    #     serializer = CocktailSerializer(cocktail)
-    #     return Response(serializer.data)
+        cocktail_liqueur = CocktailLiqueur.objects.get(pk=pk)
+        serializer = CocktailLiqueurSerializer(cocktail_liqueur)
+        return Response(serializer.data)
 
 
     def update(self, request, pk):
@@ -63,9 +66,20 @@ class CocktailLiqueurView(ViewSet):
         cocktail_liqueur.save()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
+    def destroy(self, request, pk):
+        cocktail_liqueur = CocktailLiqueur.objects.get(pk=pk)
+        cocktail_liqueur.delete()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
+class CocktailLiqueurForCocktailSerializer(serializers.ModelSerializer):
+    """json serializer for a cocktail's liquor"""
+    class Meta:
+        model = Cocktail
+        fields = ('id',)
 
 class CocktailLiqueurSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
+    cocktail = CocktailLiqueurForCocktailSerializer(many = False)
     class Meta:
         model=CocktailLiqueur
         fields=("id", "cocktail", "liqueur", )

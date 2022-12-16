@@ -21,6 +21,10 @@ class CocktailView(ViewSet):
         if "mycocktails" in request.query_params:
             cocktails = Cocktail.objects.filter(created_by_mixologist = self.request.user.id)
 
+        elif "feed" in request.query_params:
+            cocktails.Cocktail.object.all().orderBy('name')
+            
+
         serializer = CocktailSerializer(cocktails, many = True)
         return Response(serializer.data)
 
@@ -65,7 +69,7 @@ class CocktailView(ViewSet):
 
 
 
-    def update(self, request, pk):
+    def update(self, request, pk):  
         """Handle PUT requests for a cocktail
 
         Returns:
@@ -74,6 +78,9 @@ class CocktailView(ViewSet):
 
         cocktail = Cocktail.objects.get(pk=pk)
         cocktail.category = Category.objects.get(pk =request.data["category"])
+        cocktail.liquors.set(request.data["liquors"])
+        cocktail.liqueurs.set(request.data["liqueurs"])
+        cocktail.staple_ingredients.set(request.data["staple_ingredients"])
         #cocktail.created_by_mixologist = Mixologist.objects.get(user=request.auth.user)
         cocktail.name = request.data["name"]
         cocktail.recipe = request.data["recipe"]
@@ -81,7 +88,12 @@ class CocktailView(ViewSet):
         cocktail.save()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
+    def destroy(self, request, pk):
+        cocktail = Cocktail.objects.get(pk=pk)
+        cocktail.delete()
 
+
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
 class CocktailSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
     class Meta:

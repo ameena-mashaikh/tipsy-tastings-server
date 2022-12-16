@@ -38,16 +38,17 @@ class CocktailStapleIngredientView(ViewSet):
         return Response(serializer.data , status=status.HTTP_201_CREATED)
 
 
-    # def retrieve(self, request, pk):
-    #     """Handle GET requests for single game
+    def retrieve(self, request, pk):
+        """Handle GET requests for single cocktail staple ingredient
 
-    #     Returns:
-    #         Response -- JSON serialized game 
-    #     """
+        Returns:
+            Response -- JSON serialized staple ingredient
+        """
 
-    #     cocktail = Cocktail.objects.get(pk=pk)
-    #     serializer = CocktailSerializer(cocktail)
-    #     return Response(serializer.data)
+        cocktail_staple = CocktailStapleIngredient.objects.get(pk=pk)
+        serializer = CocktailStapleIngredientSerializer(cocktail_staple)
+        return Response(serializer.data)
+
 
     def update(self, request, pk):
         """Handle PUT requests for cocktail staple ingredient
@@ -62,10 +63,22 @@ class CocktailStapleIngredientView(ViewSet):
         cocktail_staple_ingredient.save()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
+    def destroy(self, request, pk):
+        cocktail_staple = CocktailStapleIngredient.objects.get(pk=pk)
+        cocktail_staple.delete()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
+
+class CocktailStaplesForCocktailSerializer(serializers.ModelSerializer):
+    """json serializer for a cocktail's staple"""
+    class Meta:
+        model = Cocktail
+        fields = ('id',)
 
 
 class CocktailStapleIngredientSerializer(serializers.ModelSerializer):
     """JSON serializer for a cocktail's staple ingredients."""
+    cocktail = CocktailStaplesForCocktailSerializer(many = False)
     class Meta:
         model=CocktailStapleIngredient
         fields=("id", "cocktail", "staple_ingredient", )

@@ -17,7 +17,9 @@ class CocktailLiquorView(ViewSet):
         """
 
         cocktail_liquors = CocktailLiquor.objects.all()
-
+        if "cocktail" in request.query_params:
+            query_value = request.query_params["cocktail"]
+            cocktail_liquors = cocktail_liquors.filter(cocktail = query_value)
 
         serializer = CocktailLiquorSerializer(cocktail_liquors, many = True)
         return Response(serializer.data)
@@ -26,7 +28,7 @@ class CocktailLiquorView(ViewSet):
         """Handle POST operations
 
         Returns:
-        Response -- JSON serialized Cocktail Liquor instance"""
+        Response -- JSON serialized Cocktail Liquor instance""" 
         
         cocktail = Cocktail.objects.get(pk=request.data["cocktail"])
         liquor = Liquor.objects.get(pk = request.data["liquor"])
@@ -51,19 +53,33 @@ class CocktailLiquorView(ViewSet):
         cocktail_liquor.save()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
-    # def retrieve(self, request, pk):
-    #     """Handle GET requests for single game
+    def retrieve(self, request, pk):
+        """Handle GET requests for single cocktail liquor
 
-    #     Returns:
-    #         Response -- JSON serialized game 
-    #     """
+        Returns:
+            Response -- JSON serialized liquor 
+        """
 
-    #     cocktail = Cocktail.objects.get(pk=pk)
-    #     serializer = CocktailSerializer(cocktail)
-    #     return Response(serializer.data)
+        cocktail_liquor = CocktailLiquor.objects.get(pk=pk)
+        serializer = CocktailLiquorSerializer(cocktail_liquor)
+        return Response(serializer.data)
+
+
+    def destroy(self, request, pk):
+        cocktail_liquor = CocktailLiquor.objects.get(pk=pk)
+        cocktail_liquor.delete()
+        return Response(None, status=status.HTTP_204_NO_CONTENT)
+
+class CocktailLiquorForCocktailSerializer(serializers.ModelSerializer):
+    """json serializer for a cocktail's liquor"""
+    class Meta:
+        model = Cocktail
+        fields = ('id',)
+
 
 class CocktailLiquorSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
+    cocktail = CocktailLiquorForCocktailSerializer(many = False)
     class Meta:
         model=CocktailLiquor
         fields=("id", "cocktail", "liquor", )
