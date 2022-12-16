@@ -87,7 +87,7 @@ class CocktailView(ViewSet):
         cocktail.image = request.data["image"]
         cocktail.save()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
-
+    
     def destroy(self, request, pk):
         cocktail = Cocktail.objects.get(pk=pk)
         cocktail.delete()
