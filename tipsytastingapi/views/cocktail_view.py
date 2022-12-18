@@ -22,7 +22,7 @@ class CocktailView(ViewSet):
             cocktails = Cocktail.objects.filter(created_by_mixologist = self.request.user.id)
 
         elif "feed" in request.query_params:
-            cocktails.Cocktail.object.all().orderBy('name')
+            cocktails = Cocktail.objects.all().order_by('-date')
             
 
         serializer = CocktailSerializer(cocktails, many = True)
@@ -87,7 +87,7 @@ class CocktailView(ViewSet):
         cocktail.image = request.data["image"]
         cocktail.save()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
-    
+
     def destroy(self, request, pk):
         cocktail = Cocktail.objects.get(pk=pk)
         cocktail.delete()
