@@ -4,8 +4,7 @@
         "pk": 1,
         "fields": {
             "cocktail": 1,
-            "staple_ingredient": 1,
-            "quantity": 1
+            "staple_ingredient": 1
         }
     },
     {
@@ -13,8 +12,7 @@
         "pk": 2,
         "fields": {
             "cocktail": 1,
-            "staple_ingredient": 2  ,
-            "quantity": 1
+            "staple_ingredient": 2 
         }
     }
 ]
