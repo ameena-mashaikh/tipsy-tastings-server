@@ -66,7 +66,6 @@ class CocktailPostView(ViewSet):
         """
 
         cocktail_post = CocktailPost.objects.get(pk=pk)
-        cocktail_post.cocktail = Cocktail.objects.get(pk =request.data["cocktail"])
         cocktail_post.caption = request.data["caption"]
         cocktail_post.save()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
