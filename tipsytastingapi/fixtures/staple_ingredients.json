@@ -3,15 +3,490 @@
         "model": "tipsytastingapi.stapleingredient",
         "pk": 1,
         "fields": {
-           "name": "Sour Mix"
+           "name": "Grenadine"
         }
     },
     {
         "model": "tipsytastingapi.stapleingredient",
         "pk": 2,
         "fields": {
+           "name": "Apples"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 3,
+        "fields": {
+           "name": "Apple Juice"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 4,
+        "fields": {
+           "name": "Bananas"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 5,
+        "fields": {
+           "name": "Basil Leaves"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 6,
+        "fields": {
+           "name": "Blackberries"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 7,
+        "fields": {
+           "name": "Blueberries"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 8,
+        "fields": {
+           "name": "Cherries"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 9,
+        "fields": {
+           "name": "Cranberries"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 10,
+        "fields": {
+           "name": "Cranberry Juice"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 11,
+        "fields": {
+           "name": "Coconut Milk"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 12,
+        "fields": {
+           "name": "Coconut Water"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 13,
+        "fields": {
+           "name": "Cucumbers"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 14,
+        "fields": {
+           "name": "Dragon Fruit"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 15,
+        "fields": {
+           "name": "Ginger"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 16,
+        "fields": {
+           "name": "Grapefruit Juice"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 17,
+        "fields": {
+           "name": "Jalapenos"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 18,
+        "fields": {
+           "name": "Kiwis"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 19,
+        "fields": {
+           "name": "Lemon"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 20,
+        "fields": {
+           "name": "Lemon Juice"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 21,
+        "fields": {
+           "name": "Lime"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 22,
+        "fields": {
+           "name": "Lime Juice"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 23,
+        "fields": {
+           "name": "Lychee"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 24,
+        "fields": {
+           "name": "Mango Juice"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 25,
+        "fields": {
+           "name": "Maraschino Cherries"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 26,
+        "fields": {
+           "name": "Mint Leaves"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 27,
+        "fields": {
+           "name": "Orange Juice"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 28,
+        "fields": {
+           "name": "Passion Fruit"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 29,
+        "fields": {
+           "name": "Peaches"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 30,
+        "fields": {
+           "name": "Pineapples"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 31,
+        "fields": {
+           "name": "Pineapple Juice"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 32,
+        "fields": {
+           "name": "Plums"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 33,
+        "fields": {
+           "name": "Pomegranate Juice"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 34,
+        "fields": {
+           "name": "Pomegranate Seeds"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 35,
+        "fields": {
+           "name": "Raspberries"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 36,
+        "fields": {
+           "name": "Rosemary Sprigs"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 37,
+        "fields": {
+           "name": "Strawberries"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 38,
+        "fields": {
+           "name": "Tomato Juice"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 39,
+        "fields": {
+           "name": "Thyme Sprigs"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 40,
+        "fields": {
+           "name": "Watermelon"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 41,
+        "fields": {
+           "name": "Club Soda"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 42,
+        "fields": {
            "name": "Cola"
         }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 43,
+        "fields": {
+           "name": "Diet Cola"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 44,
+        "fields": {
+           "name": "Cherry Soda"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 45,
+        "fields": {
+           "name": "Ginger Ale"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 46,
+        "fields": {
+           "name": "Ginger Beer"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 47,
+        "fields": {
+           "name": "Horchata"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 48,
+        "fields": {
+           "name": "Redbull"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 49,
+        "fields": {
+           "name": "Lemon-Lime Soda"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 50,
+        "fields": {
+           "name": "Lemonade"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 51,
+        "fields": {
+           "name": "Margarita Mix"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 52,
+        "fields": {
+           "name": "Sour Mix"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 53,
+        "fields": {
+           "name": "Tonic Water"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 54,
+        "fields": {
+           "name": "Seltzer Water"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 55,
+        "fields": {
+           "name": "Almond Milk"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 56,
+        "fields": {
+           "name": "Cinnamon Powder"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 57,
+        "fields": {
+           "name": "Cocoa Powder"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 58,
+        "fields": {
+           "name": "Coffee"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 59,
+        "fields": {
+           "name": "Cold Brew Coffee"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 60,
+        "fields": {
+           "name": "Earl Grey Tea"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 61,
+        "fields": {
+           "name": "Espresso"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 62,
+        "fields": {
+           "name": "Heavy Cream"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 63,
+        "fields": {
+           "name": "Half and Half"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 64,
+        "fields": {
+           "name": "Egg Whites"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 65,
+        "fields": {
+           "name": "Honey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 66,
+        "fields": {
+           "name": "Lavender"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 67,
+        "fields": {
+           "name": "Milk"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 68,
+        "fields": {
+           "name": "Rose water"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 69,
+        "fields": {
+           "name": "Simple Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 70,
+        "fields": {
+           "name": "Sugar"
+        }
     }
-
 ]

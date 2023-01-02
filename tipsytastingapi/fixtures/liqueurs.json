@@ -3,21 +3,371 @@
         "model": "tipsytastingapi.liqueur",
         "pk": 1,
         "fields": {
-           "name": "Triple Sec"
+           "name": "Sour Cherry Liqueur"
         }
     },
     {
         "model": "tipsytastingapi.liqueur",
         "pk": 2,
         "fields": {
-           "name": "Midori"
+           "name": "Amaretto Cream Liqueur"
         }
     },
     {
         "model": "tipsytastingapi.liqueur",
         "pk": 3,
         "fields": {
-           "name": "Blue Curacao"
+           "name": "Amaretto Liqueur"
+        }
+    }, 
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 3,
+        "fields": {
+           "name": "Amaro Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 4,
+        "fields": {
+           "name": "Anise Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 5,
+        "fields": {
+           "name": "Aperol"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 6,
+        "fields": {
+           "name": "Apple Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 7,
+        "fields": {
+           "name": "Blackberry Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 8,
+        "fields": {
+           "name": "Black Raspberry Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 9,
+        "fields": {
+           "name": "Blue Curacao Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 10,
+        "fields": {
+           "name": "Butterscotch Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 11,
+        "fields": {
+           "name": "Campari"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 12,
+        "fields": {
+           "name": "Chartreuse"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 13,
+        "fields": {
+           "name": "Chocolate Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 14,
+        "fields": {
+           "name": "Dark Chocolate Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 15,
+        "fields": {
+           "name": "White Chocolate Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 16,
+        "fields": {
+           "name": "Chocolate Cream Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 17,
+        "fields": {
+           "name": "Chocolate Orange Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 18,
+        "fields": {
+           "name": "Coffee Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 19,
+        "fields": {
+           "name": "Fig Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 20,
+        "fields": {
+           "name": "Creme De Banane (Banana)"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 21,
+        "fields": {
+           "name": "Creme De Cassis (Blackcurrant)"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 22,
+        "fields": {
+           "name": "Creme De Menthe (Mint)"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 23,
+        "fields": {
+           "name": "Creme De Violette Liqueur (Violet)"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 24,
+        "fields": {
+           "name": "Earl Grey Tea Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 25,
+        "fields": {
+           "name": "Elderflower Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 26,
+        "fields": {
+           "name": "Ginger Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 27,
+        "fields": {
+           "name": "Horchata Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 28,
+        "fields": {
+           "name": "Irish Cream"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 29,
+        "fields": {
+           "name": "Lavender Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 30,
+        "fields": {
+           "name": "Limoncello Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 31,
+        "fields": {
+           "name": "Lychee Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 32,
+        "fields": {
+           "name": "Mango Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 33,
+        "fields": {
+           "name": "Maraschino Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 34,
+        "fields": {
+           "name": "Matcha Tea Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 35,
+        "fields": {
+           "name": "Melon Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 36,
+        "fields": {
+           "name": "Orange Curacao Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 37,
+        "fields": {
+           "name": "Passion Fruit Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 38,
+        "fields": {
+           "name": "Peach Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 39,
+        "fields": {
+           "name": "Pear Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 40,
+        "fields": {
+           "name": "Plum Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 41,
+        "fields": {
+           "name": "Pomegranate Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 42,
+        "fields": {
+           "name": "Prickly Pear Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 43,
+        "fields": {
+           "name":"Raspberry Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 44,
+        "fields": {
+           "name": "Rose Petal Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 45,
+        "fields": {
+           "name": "Sour Apple Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 46,
+        "fields": {
+           "name": "Southern Comfort"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 47,
+        "fields": {
+           "name": "Strawberry Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 48,
+        "fields": {
+           "name": "Strawberry Cream Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 49,
+        "fields": {
+           "name": "Triple Sec"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 50,
+        "fields": {
+           "name": "Vanilla Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 51,
+        "fields": {
+           "name": "Watermelon Liqueur"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liqueur",
+        "pk": 52,
+        "fields": {
+           "name": "Yuzu Liqueur"
         }
     }
 ]

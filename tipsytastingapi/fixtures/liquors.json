@@ -10,35 +10,687 @@
         "model": "tipsytastingapi.liquor",
         "pk": 2,
         "fields": {
-           "label": "White Rum"
+           "label": "Rum"
         }
     },
     {
         "model": "tipsytastingapi.liquor",
         "pk": 3,
         "fields": {
-           "label": "Dark Rum"
+           "label": "Tequila"
         }
     },
     {
         "model": "tipsytastingapi.liquor",
         "pk": 4,
         "fields": {
-           "label": "Rum"
+           "label": "Gin"
         }
     },
     {
         "model": "tipsytastingapi.liquor",
         "pk": 5,
         "fields": {
-           "label": "Tequila"
+           "label": "Brandy"
         }
     },
     {
         "model": "tipsytastingapi.liquor",
         "pk": 6,
         "fields": {
-           "label": "Gin"
+           "label": "Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 7,
+        "fields": {
+           "label": "Absinthe Blanche (Clear)"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 8,
+        "fields": {
+           "label": "Absinthe Verte (Green)"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 9,
+        "fields": {
+           "label": "Coconut & Coffee Botanical Spirits"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 10,
+        "fields": {
+           "label": "Cucumber & Mint Botanical Spirit"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 11,
+        "fields": {
+           "label": "Peach & Orange Blossom Botanical Spirit"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 12,
+        "fields": {
+           "label": "Apple Brandy"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 13,
+        "fields": {
+           "label": "American Brandy"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 14,
+        "fields": {
+           "label": "Cognac"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 15,
+        "fields": {
+           "label": "Peach Brandy"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 16,
+        "fields": {
+           "label": "Strawberry Brandy"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 17,
+        "fields": {
+           "label": "Apple Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 18,
+        "fields": {
+           "label": "Blackberry Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 19,
+        "fields": {
+           "label": "Blackcurrant Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 20,
+        "fields": {
+           "label": "Butterfly Pea Flower Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 21,
+        "fields": {
+           "label": "Cherry Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 22,
+        "fields": {
+           "label": "Coffee Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 23,
+        "fields": {
+           "label": "Cucumber Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 24,
+        "fields": {
+           "label": "Grapefruit Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 25,
+        "fields": {
+           "label": "Honey Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 26,
+        "fields": {
+           "label": "Lemon Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 27,
+        "fields": {
+           "label": "Lime Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 28,
+        "fields": {
+           "label": "Lychee Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 29,
+        "fields": {
+           "label": "Orange Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 30,
+        "fields": {
+           "label": "Passion Fruit Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 31,
+        "fields": {
+           "label": "Peach Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 32,
+        "fields": {
+           "label": "Pineapple Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 33,
+        "fields": {
+           "label": "Pomegranate Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 34,
+        "fields": {
+           "label": "Raspberry Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 35,
+        "fields": {
+           "label": "Rose Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 36,
+        "fields": {
+           "label": "Rosemary Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 37,
+        "fields": {
+           "label": "Spiced Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 38,
+        "fields": {
+           "label": "Strawberry Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 39,
+        "fields": {
+           "label": "Vanilla Infused Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 40,
+        "fields": {
+           "label": "Violet Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 41,
+        "fields": {
+           "label": "Watermelon Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 42,
+        "fields": {
+           "label": "Yuzu Gin"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 43,
+        "fields": {
+           "label": "Coconut Rum"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 44,
+        "fields": {
+           "label": "Dark Rum"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 45,
+        "fields": {
+           "label": "Passion Fruit Rum"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 46,
+        "fields": {
+           "label": "Pineapple Rum"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 47,
+        "fields": {
+           "label": "Spiced Rum"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 48,
+        "fields": {
+           "label": "White Rum"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 49,
+        "fields": {
+           "label": "Coconut Tequila"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 50,
+        "fields": {
+           "label": "Mezcal"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 51,
+        "fields": {
+           "label": "Pineapple Infused Tequila"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 52,
+        "fields": {
+           "label": "Tequila Anejo (Gold)"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 53,
+        "fields": {
+           "label": "Tequila Blanco (Silver)"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 54,
+        "fields": {
+           "label": "Tequila Reposado (Aged)"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 55,
+        "fields": {
+           "label": "Apple Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 56,
+        "fields": {
+           "label": "Cherry Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 57,
+        "fields": {
+           "label": "Chocolate Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 58,
+        "fields": {
+           "label": "Coconut Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 59,
+        "fields": {
+           "label": "Cranberry Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 60,
+        "fields": {
+           "label": "Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 61,
+        "fields": {
+           "label": "Cucumber Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 62,
+        "fields": {
+           "label": "Fig Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 63,
+        "fields": {
+           "label": "Grapefruit Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 64,
+        "fields": {
+           "label": "Honey Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 65,
+        "fields": {
+           "label": "Lemon Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 66,
+        "fields": {
+           "label": "Lime Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 67,
+        "fields": {
+           "label": "Mango Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 68,
+        "fields": {
+           "label": "Orange Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 69,
+        "fields": {
+           "label": "Passion Fruit Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 70,
+        "fields": {
+           "label": "Peach Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 71,
+        "fields": {
+           "label": "Pear Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 72,
+        "fields": {
+           "label": "Pineapple Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 73,
+        "fields": {
+           "label": "Prickly Pear Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 74,
+        "fields": {
+           "label": "Raspberry Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 75,
+        "fields": {
+           "label": "Strawberry Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 76,
+        "fields": {
+           "label": "Vanilla Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 77,
+        "fields": {
+           "label": "Watermelon Vodka"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 78,
+        "fields": {
+           "label": "Apple Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 79,
+        "fields": {
+           "label": "Chocolate Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 80,
+        "fields": {
+           "label": "Scotch Malt Whisky"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 81,
+        "fields": {
+           "label": "Maple Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 82,
+        "fields": {
+           "label": "Peach Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 83,
+        "fields": {
+           "label": "Spiced Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 84,
+        "fields": {
+           "label": "Vanilla Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 85,
+        "fields": {
+           "label": "American Blended Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 86,
+        "fields": {
+           "label": "American Corn Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 87,
+        "fields": {
+           "label": "American Single Malt Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 88,
+        "fields": {
+           "label": "American Wheat Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 89,
+        "fields": {
+           "label": "Bourbon"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 90,
+        "fields": {
+           "label": "Black Cherry Bourbon"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 91,
+        "fields": {
+           "label": "English Whisky"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 92,
+        "fields": {
+           "label": "Ginger Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 93,
+        "fields": {
+           "label": "Habanero Bourbon"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 94,
+        "fields": {
+           "label": "Irish Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 95,
+        "fields": {
+           "label": "Peanut Butter Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 96,
+        "fields": {
+           "label": "Rye Whiskey"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 97,
+        "fields": {
+           "label": "Canadian Rye Whisky"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 98,
+        "fields": {
+           "label": "Japanese Single Malt Whisky"
+        }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 99,
+        "fields": {
+           "label": "Blended Scotch Whisky"
         }
     }
+
 ]
