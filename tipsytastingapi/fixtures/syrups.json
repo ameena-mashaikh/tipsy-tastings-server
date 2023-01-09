@@ -1,0 +1,450 @@
+[
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 1,
+        "fields": {
+           "name": "Agave Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 2,
+        "fields": {
+           "name": "Amaretto Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 3,
+        "fields": {
+           "name": "Anise Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 4,
+        "fields": {
+           "name": "Apple Cinnamon Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 5,
+        "fields": {
+           "name": "Apple Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 6,
+        "fields": {
+           "name": "Apricot Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 7,
+        "fields": {
+           "name": "Banana Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 8,
+        "fields": {
+           "name": "Basil Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 9,
+        "fields": {
+           "name": "Blackberry Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 10,
+        "fields": {
+           "name": "Blackcurrant Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 11,
+        "fields": {
+           "name": "Blood Orange Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 12,
+        "fields": {
+           "name": "Blueberry Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 13,
+        "fields": {
+           "name": "Butterscotch Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 14,
+        "fields": {
+           "name": "Caramel Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 15,
+        "fields": {
+           "name": "Cherry Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 16,
+        "fields": {
+           "name": "Chocolate Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 17,
+        "fields": {
+           "name": "Cinnamon Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 18,
+        "fields": {
+           "name": "Coconut Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 19,
+        "fields": {
+           "name": "Coffee Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 20,
+        "fields": {
+           "name": "Cranberry Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 21,
+        "fields": {
+           "name": "Cream of Coconut"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 22,
+        "fields": {
+           "name": "Creme Brulee Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 23,
+        "fields": {
+           "name": "Cucumber Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 24,
+        "fields": {
+           "name": "Dragon Fruit Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 25,
+        "fields": {
+           "name": "Earl Grey Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 26,
+        "fields": {
+           "name": "Elderflower Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 27,
+        "fields": {
+           "name": "Fig Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 28,
+        "fields": {
+           "name": "Ginger Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 29,
+        "fields": {
+           "name": "Gingerbread Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 30,
+        "fields": {
+           "name": "Grapefruit Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 31,
+        "fields": {
+           "name": "Green Apple Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 32,
+        "fields": {
+           "name": "Grenadine"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 33,
+        "fields": {
+           "name": "Hibiscus Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 34,
+        "fields": {
+           "name": "Honey Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 35,
+        "fields": {
+           "name": "Jasmine Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 36,
+        "fields": {
+           "name": "Kiwi Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 37,
+        "fields": {
+           "name": "Lavender Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 38,
+        "fields": {
+           "name": "Lemon Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 39,
+        "fields": {
+           "name": "Lychee Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 40,
+        "fields": {
+           "name": "Mango Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 41,
+        "fields": {
+           "name": "Maple Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 42,
+        "fields": {
+           "name": "Maraschino Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 43,
+        "fields": {
+           "name": "Mint Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 44,
+        "fields": {
+           "name": "Orange Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 45,
+        "fields": {
+           "name": "Pink Grapefruit Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 46,
+        "fields": {
+           "name": "Passion Fruit Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 47,
+        "fields": {
+           "name": "Peach Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 48,
+        "fields": {
+           "name": "Pear Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 49,
+        "fields": {
+           "name": "Piña-Colada Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 50,
+        "fields": {
+           "name": "Pineapple Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 51,
+        "fields": {
+           "name": "Pistachio Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 52,
+        "fields": {
+           "name": "Raspberry Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 53,
+        "fields": {
+           "name": "Rosehip Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 54,
+        "fields": {
+           "name": "Rosemary Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 55,
+        "fields": {
+           "name": "Salted Caramel Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 56,
+        "fields": {
+           "name": "Simple Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 57,
+        "fields": {
+           "name": "Spicy Jalapeno Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 58,
+        "fields": {
+           "name": "Strawberry Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 59,
+        "fields": {
+           "name": "Sugar-Free Sweetener"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 60,
+        "fields": {
+           "name": "Thyme Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 61,
+        "fields": {
+           "name": "Vanilla Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 62,
+        "fields": {
+           "name": "Violet Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 63,
+        "fields": {
+           "name": "Watermelon Syrup"
+        }
+    },
+    {
+        "model": "tipsytastingapi.syrup",
+        "pk": 64,
+        "fields": {
+           "name": "Yuzu Syrup"
+        }
+    }
+]

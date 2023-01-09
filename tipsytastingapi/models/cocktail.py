@@ -11,3 +11,4 @@ class Cocktail(models.Model):
     liquors = models.ManyToManyField("Liquor", through = "CocktailLiquor")
     liqueurs = models.ManyToManyField("Liqueur", through = "CocktailLiqueur")
     staple_ingredients = models.ManyToManyField("StapleIngredient", through = "CocktailStapleIngredient")
+    syrups = models.ManyToManyField("Syrup", through = "CocktailSyrup")

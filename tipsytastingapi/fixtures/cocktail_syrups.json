@@ -1,0 +1,18 @@
+[
+    {
+        "model": "tipsytastingapi.cocktailsyrup",
+        "pk": 1,
+        "fields": {
+            "cocktail": 1,
+            "syrup": 1
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktailsyrup",
+        "pk": 2,
+        "fields": {
+            "cocktail": 1,
+            "syrup": 2 
+        }
+    }
+]

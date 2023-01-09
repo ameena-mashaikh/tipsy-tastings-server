@@ -70,16 +70,16 @@ class CocktailLiquorView(ViewSet):
         cocktail_liquor.delete()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
-class CocktailLiquorForCocktailSerializer(serializers.ModelSerializer):
-    """json serializer for a cocktail's liquor"""
-    class Meta:
-        model = Cocktail
-        fields = ('id',)
+# class CocktailLiquorForCocktailSerializer(serializers.ModelSerializer):
+#     """json serializer for a cocktail's liquor"""
+#     class Meta:
+#         model = Cocktail
+#         fields = ('id',)
 
 
 class CocktailLiquorSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
-    cocktail = CocktailLiquorForCocktailSerializer(many = False)
+    #cocktail = CocktailLiquorForCocktailSerializer(many = False)
     class Meta:
         model=CocktailLiquor
         fields=("id", "cocktail", "liquor", )
