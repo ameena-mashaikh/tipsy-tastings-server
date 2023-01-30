@@ -27,13 +27,13 @@ router.register(r'cocktails', CocktailView, 'cocktail')
 router.register(r'liquors', LiquorView, 'liquor')
 router.register(r'liqueurs', LiqueurView, 'liqueur')
 router.register(r'stapleingredients', StapleIngredientView, 'stapleingredient')
-router.register(r'syrups', LiqueurView, 'syrup')
+router.register(r'syrups', SyrupView, 'syrup')
 router.register(r'categories', CategoryView, 'category')
 router.register(r'cocktailposts', CocktailPostView, 'cocktailpost')
 router.register(r'cocktailliqueurs', CocktailLiqueurView, 'cocktailliqueur')
 router.register(r'cocktailliquors', CocktailLiquorView, 'cocktailliquor')
 router.register(r'cocktailstapleingredients', CocktailStapleIngredientView, 'cocktailstapleingredient')
-router.register(r'cocktailsyrups', CocktailLiquorView, 'cocktailsyrup')
+router.register(r'cocktailsyrups', CocktailSyrupView, 'cocktailsyrup')
 
 
 
