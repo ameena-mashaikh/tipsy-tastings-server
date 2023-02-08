@@ -22,7 +22,7 @@ class CocktailView(ViewSet):
             cocktails = Cocktail.objects.filter(created_by_mixologist = self.request.user.id)
 
         elif "feed" in request.query_params:
-            cocktails = Cocktail.objects.all().order_by('-date')
+            cocktails = Cocktail.objects.all().order_by('-date')[:10]
             
 
         serializer = CocktailSerializer(cocktails, many = True)

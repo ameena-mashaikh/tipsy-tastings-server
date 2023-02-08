@@ -6,8 +6,52 @@
             "first_name": "Naruto",
             "last_name": "Uzumaki",
             "email": "naruto@uzumaki.com",
-            "username": "narutouzumaki",
+            "username": "NarutoUzumaki",
             "password": "umfAPLCL"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "first_name": "Don",
+            "last_name": "Draper",
+            "email": "don@draper.com",
+            "username": "DonDraper",
+            "password": "dondraper"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "first_name": "Gojo",
+            "last_name": "Satoru",
+            "email": "gojo@satoru.com",
+            "username": "GojoSatoru",
+            "password": "gojosatoru"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "first_name": "Tohru",
+            "last_name": "Honda",
+            "email": "tohru@honda.com",
+            "username": "TohruHonda",
+            "password": "tohruhonda"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "first_name": "Tyrion",
+            "last_name": "Lannister",
+            "email": "tyrion@lannister.com",
+            "username": "TyrionLannister",
+            "password": "tyrionlannister"
         }
     }
 ]

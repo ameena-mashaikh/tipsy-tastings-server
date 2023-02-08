@@ -5,11 +5,70 @@
         "fields": {
            "name": "Long Island Iced Tea",
            "category": 1,
-           "recipe": "½ ounce Vodka, ½ ounce Rum, ½ ounce Gin, ½ ounce Tequila, ½ ounce Triple Sec, 1 ounce sour mix, 1 ounce cola",
+           "recipe": "½ ounce Vodka\n½ ounce Rum\n½ ounce Gin\n½ ounce Tequila\n½ ounce Triple Sec\n1 ounce sour mix\n1 ounce cola",
            "image": "https://www.simplejoy.com/wp-content/uploads/2021/04/long-island-iced-tea.jpg",
            "created_by_mixologist": 1,
            "date": "2022-12-14"
-
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 2,
+        "fields": {
+           "name": "Moscow Mule",
+           "category": 1,
+           "recipe": "Pour 2 ounces Vodka, ½ ounce Lime Juice, and 4 ounces Ginger Beer into a copper mug.\nAdd ice and garnish with a lime slice. Serve immediately!",
+           "image": "https://www.acouplecooks.com/wp-content/uploads/2019/06/Moscow-Mule-070.jpg",
+           "created_by_mixologist": 2,
+           "date": "2022-12-15",
+           "liquors": [1],
+           "staple_ingredients": [22, 46]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 3,
+        "fields": {
+           "name": "Vodka Tonic",
+           "category": 1,
+           "recipe": "Fill a highball glass with ice.\nPour in 1½ ounces of vodka and stir several times.\nPour 4 ounces of tonic water and fill leaving space from the top.\nAdd a ½ ounce each of lemon juice and lime juice.\nGarnish with a lime wedge.",
+           "image": "https://www.acouplecooks.com/wp-content/uploads/2020/04/Vodka-Tonic-003.jpg",
+           "created_by_mixologist": 3,
+           "date": "2022-12-15",
+           "liquors": [1],
+           "staple_ingredients": [53, 20, 22]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 4,
+        "fields": {
+           "name": "Cosmopolitan",
+           "category": 1,
+           "recipe": "Place 1 ounce vodka or orange vodka, 1 ounce cranberry juice, ½ ounce Triple Sec, ½ ounce lemon juice, and ½ ounce simple syrup in a cocktail shaker with ice.\nShake 15 seconds until cold.\nStrain the liquid into a martini glass.",
+           "image": "https://www.acouplecooks.com/wp-content/uploads/2019/12/Cosmopolitan-Cocktail-006.jpg",
+           "created_by_mixologist": 4,
+           "date": "2022-12-16",
+           "liquors": [1, 68],
+           "liqueurs": [49],
+           "staple_ingredients": [20],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 5,
+        "fields": {
+           "name": "White Russian",
+           "category": 1,
+           "recipe": "Add 2 ounces Vodka and 1 ounce Coffee Liqueur to a glass with ice.\nTop with 1 ounce of heavy cream.\nStir until cold.",
+           "image": "https://www.acouplecooks.com/wp-content/uploads/2020/07/White-Russian-003.jpg",
+           "created_by_mixologist": 5,
+           "date": "2022-12-17",
+           "liquors": [1],
+           "liqueurs": [18],
+           "staple_ingredients": [62]
         }
     }
+    
 ]
