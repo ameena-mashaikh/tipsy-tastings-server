@@ -3,14 +3,14 @@
         "model": "tipsytastingapi.category",
         "pk": 1,
         "fields": {
-            "label": "Alcoholic"
+            "label": "Cocktail"
         }
     },
     {
         "model": "tipsytastingapi.category",
         "pk": 2,
         "fields": {
-            "label": "Non-Alcoholic"
+            "label": "Shot"
         }
     }
 ]

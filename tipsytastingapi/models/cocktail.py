@@ -1,4 +1,5 @@
 from django.db import models
+from cloudinary.models import CloudinaryField
 
 class Cocktail(models.Model):
     name = models.CharField(max_length = 75)
@@ -10,3 +11,4 @@ class Cocktail(models.Model):
     liquors = models.ManyToManyField("Liquor", through = "CocktailLiquor")
     liqueurs = models.ManyToManyField("Liqueur", through = "CocktailLiqueur")
     staple_ingredients = models.ManyToManyField("StapleIngredient", through = "CocktailStapleIngredient")
+    syrups = models.ManyToManyField("Syrup", through = "CocktailSyrup")

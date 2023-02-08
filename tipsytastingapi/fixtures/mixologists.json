@@ -7,5 +7,41 @@
            "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
            "bio": "I am a full time ninja who loves to explore and try out new cocktails!"
         }
+    },
+    {
+        "model": "tipsytastingapi.mixologist",
+        "pk": 2,
+        "fields": {
+           "user": 2,
+           "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+           "bio": "Full-time creative director in advertising. I prefer classic cocktails and I love a good old fashioned, but I want to expand my horizons."
+        }
+    },
+    {
+        "model": "tipsytastingapi.mixologist",
+        "pk": 3,
+        "fields": {
+           "user": 3,
+           "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+           "bio": "I drink here and there, I just want to find cocktails that taste good!"
+        }
+    },
+    {
+        "model": "tipsytastingapi.mixologist",
+        "pk": 4,
+        "fields": {
+           "user": 4,
+           "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+           "bio": "I barely drink, but sweet cocktails are my favorite!"
+        }
+    },
+    {
+        "model": "tipsytastingapi.mixologist",
+        "pk": 5,
+        "fields": {
+           "user": 5,
+           "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png",
+           "bio": "I drink quite a lot, I would say I am a cocktail connoisseur!"
+        }
     }
 ]
