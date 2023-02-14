@@ -148,15 +148,105 @@
         "model": "tipsytastingapi.cocktail",
         "pk": 11,
         "fields": {
-           "name": "",
+           "name": "Margarita",
            "category": 1,
-           "recipe": "",
-           "image": "",
-           "created_by_mixologist": 5,
+           "recipe": "Add 1½ ounces tequila, 1 ounce triple sec, ½ simple syrup, and ¾ ounce lime juice to a cocktail shaker with ice.\nCover and shake vigorously.\nPour into a glass with ice and serve immediately.\nGarnish with a lime slice if desired!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676399190/tipsytastings/ba-margarita-1_krql5z.webp",
+           "created_by_mixologist": 1,
+           "date": "2022-12-16",
+           "liquors": [3],
+           "liqueurs": [49],
+           "staple_ingredients": [22],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 12,
+        "fields": {
+           "name": "Tequila Sunrise",
+           "category": 1,
+           "recipe": "Add 2 ounces blanco tequila and 4 ounces orange juice to a highball glass with ice.\nStir then top with ½ ounce grenadine which will sink to the bottom and create a layered effect.\nGarnish with an orange slice and a maraschino cherry.\nServe immediately!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676399189/tipsytastings/Tequila-Sunrise-003s_zr8wkz.webp",
+           "created_by_mixologist": 2,
            "date": "2022-12-17",
-           "liquors": [],
-           "liqueurs": [],
-           "staple_ingredients": []
+           "liquors": [3, 53],
+           "staple_ingredients": [27, 25],
+           "syrups":[32]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 13,
+        "fields": {
+           "name": "Paloma",
+           "category": 1,
+           "recipe": "Add 2 ounces tequila, 2 ounces grapefruit juice, 2 ounces, 2 ounces club soda, ½ ounce lime juice, and ½ ounce simple syrup into a glass.\nFill the remainder of the glass with ice and adjust sweetness to liking.\nGarnish with grapefruit wedge!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676399190/tipsytastings/paloma-recipe-1626285497_e2ngyx.jpg",
+           "created_by_mixologist": 3,
+           "date": "2022-12-18",
+           "liquors": [3],
+           "staple_ingredients": [41, 16, 22],
+           "syrups":[56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 14,
+        "fields": {
+           "name": "Gin & Tonic",
+           "category": 1,
+           "recipe": "Add 2 ounces gin and 4 to 6 ounces of tonic water to a highball glass with ice.\nStir gently so to not lose carbonation.\nGarnish with lime wedges and serve immediately!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676418942/tipsytastings/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__09__18090535__Gin-and-Tonic-720x720-recipe-c2e32c4cf53c4ed7a4de20af8e862a12_zvztir.jpg",
+           "created_by_mixologist": 4,
+           "date": "2022-12-17",
+           "liquors": [4],
+           "staple_ingredients": [53]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 15,
+        "fields": {
+           "name": "Tom Collins",
+           "category": 1,
+           "recipe": "Add 2 ounces gin, 1 ounce lemon juice, ½ ounce simple syrup to a glass.\nFill with ice, top with club soda, and stir.\nGarnish with a lemon slice and maraschino cherry!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676418948/tipsytastings/OLI_0921_Cocktail-TomCollins_04429-1b603f0_ricfi7.jpg",
+           "created_by_mixologist": 5,
+           "date": "2022-12-18",
+           "liquors": [4],
+           "staple_ingredients": [41, 20, 25],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 16,
+        "fields": {
+           "name": "Cucumber Cooler",
+           "category": 1,
+           "recipe": "Muddle 6 mint leaves and 4-6 cucumber slices in ½ ounce of lime juice and 1 ounce simple syrup until cucumbers are broken up.\nAdd ice and gin. Shake.\nDouble strain into a glass with ice and top with 4 ounces of tonic water.\nStir and enjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676418942/tipsytastings/TropicalCucumberCooler_630x420_oaykud.jpg",
+           "created_by_mixologist": 1,
+           "date": "2022-12-19",
+           "liquors": [4],
+           "staple_ingredients": [22, 13, 26, 53],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 17,
+        "fields": {
+           "name": "Strawberry Gin Smash",
+           "category": 1,
+           "recipe": "Muddle 2 sliced up strawberries, 1 ounce simple syrup, and ½ ounce lime juice.\nStrain and add to a glass with ice and add 3 ounces of gin.\nTop with club soda and garnish with mint and some strawberry slices!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676418948/tipsytastings/strawberry-gin-smash-with-basil-300x300_c1ug66.jpg",
+           "created_by_mixologist": 2,
+           "date": "2022-12-20",
+           "liquors": [4],
+           "staple_ingredients": [22, 37, 26, 41],
+           "syrups": [56]
         }
     }
 ]
