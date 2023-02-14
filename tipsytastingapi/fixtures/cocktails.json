@@ -6,7 +6,7 @@
            "name": "Long Island Iced Tea",
            "category": 1,
            "recipe": "½ ounce Vodka\n½ ounce Rum\n½ ounce Gin\n½ ounce Tequila\n½ ounce Triple Sec\n1 ounce sour mix\n1 ounce cola",
-           "image": "https://www.simplejoy.com/wp-content/uploads/2021/04/long-island-iced-tea.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/long-island-iced-tea_weg2ce.jpg",
            "created_by_mixologist": 1,
            "date": "2022-12-14"
         }
@@ -18,7 +18,7 @@
            "name": "Moscow Mule",
            "category": 1,
            "recipe": "Pour 2 ounces Vodka, ½ ounce Lime Juice, and 4 ounces Ginger Beer into a copper mug.\nAdd ice and garnish with a lime slice. Serve immediately!",
-           "image": "https://www.acouplecooks.com/wp-content/uploads/2019/06/Moscow-Mule-070.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/Moscow-Mule-070_iik6ss.jpg",
            "created_by_mixologist": 2,
            "date": "2022-12-15",
            "liquors": [1],
@@ -32,7 +32,7 @@
            "name": "Vodka Tonic",
            "category": 1,
            "recipe": "Fill a highball glass with ice.\nPour in 1½ ounces of vodka and stir several times.\nPour 4 ounces of tonic water and fill leaving space from the top.\nAdd a ½ ounce each of lemon juice and lime juice.\nGarnish with a lime wedge.",
-           "image": "https://www.acouplecooks.com/wp-content/uploads/2020/04/Vodka-Tonic-003.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/Vodka-Tonic-003_und4bi.jpg",
            "created_by_mixologist": 3,
            "date": "2022-12-15",
            "liquors": [1],
@@ -46,7 +46,7 @@
            "name": "Cosmopolitan",
            "category": 1,
            "recipe": "Place 1 ounce vodka or orange vodka, 1 ounce cranberry juice, ½ ounce Triple Sec, ½ ounce lemon juice, and ½ ounce simple syrup in a cocktail shaker with ice.\nShake 15 seconds until cold.\nStrain the liquid into a martini glass.",
-           "image": "https://www.acouplecooks.com/wp-content/uploads/2019/12/Cosmopolitan-Cocktail-006.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/Cosmopolitan-Cocktail-006_npxqig.jpg",
            "created_by_mixologist": 4,
            "date": "2022-12-16",
            "liquors": [1, 68],
@@ -62,13 +62,101 @@
            "name": "White Russian",
            "category": 1,
            "recipe": "Add 2 ounces Vodka and 1 ounce Coffee Liqueur to a glass with ice.\nTop with 1 ounce of heavy cream.\nStir until cold.",
-           "image": "https://www.acouplecooks.com/wp-content/uploads/2020/07/White-Russian-003.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/white-russain_ke807s.jpg",
            "created_by_mixologist": 5,
            "date": "2022-12-17",
            "liquors": [1],
            "liqueurs": [18],
            "staple_ingredients": [62]
         }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 6,
+        "fields": {
+           "name": "Dark ’n Stormy",
+           "category": 1,
+           "recipe": "Add 2 ounces Dark Rum and ½ ounce of lime juice to a tall glass with ice.\nTop with about 5 ounces of ginger beer.\nStir.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/long-island-iced-tea_weg2ce.jpg",
+           "created_by_mixologist": 1,
+           "date": "2022-12-18",
+           "liquors": [44],
+           "staple_ingredients": [46, 22]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 7,
+        "fields": {
+           "name": "Classic Daiquiri",
+           "category": 1,
+           "recipe": "Add 2 ounces white rum, 1 ounce lime juice, and ½ ounce simple syrup into a cocktail shaker filled with ice.\nShake vigorously, then strain into a cocktail glass.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676310795/tipsytastings/classic-daiquiri-recipe-759294-13_preview-5b0ecc23ba6177003649f0ce_csa3ka.jpg",
+           "created_by_mixologist": 2,
+           "date": "2022-12-19",
+           "liquors": [2, 48],
+           "staple_ingredients": [22],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 8,
+        "fields": {
+           "name": "Piña Colada",
+           "category": 1,
+           "recipe": "Freeze ½ cup of pineapple chunks for at least three hours.\nAdd frozen pineapple, 1 ounce cream of coconut, 1½ ounces white rum, ½ ounce lime juice, and 1½ cups of ice to a blender.\nBlend until smooth.\nGarnish with a slice of pineapple and a maraschino cherry on top!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676310795/tipsytastings/pina-colada1_e7zm57.jpg",
+           "created_by_mixologist": 3,
+           "date": "2022-12-19",
+           "liquors": [2, 48],
+           "staple_ingredients": [30, 22, 25],
+           "syrups": [21]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 9,
+        "fields": {
+           "name": "Rum Punch",
+           "category": 1,
+           "recipe": "Add 1 ounce white rum, 1 ounce dark rum, 2 ounces pineapple juice, 1 ounce orange juice, and ½ lime juice to a highball glass.\nStir.\nFill the glass with ice and top with grenadine.\nGarnish with a cherry!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676310795/tipsytastings/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__08__13113544__rum-punch-720x720-article-e43bfecd823145f1bc1eae2c6d297393_pb6cmm.jpg",
+           "created_by_mixologist": 4,
+           "date": "2022-12-19",
+           "liquors": [2, 44, 48],
+           "staple_ingredients": [22, 27, 31, 25],
+           "syrups": [32]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 10,
+        "fields": {
+           "name": "Hurricane",
+           "category": 1,
+           "recipe": "Remove the seeds and skin from the passion fruit and add to a blender to puree.\nAdd 2 ounces white rum, 2 ounces dark rum, 1 ounce lime juice, 1 ounce orange juice, ½ ounce passion fruit puree, ½ ounce simple syrup, and 1 tsp grenadine into a shaker with ice.\nShake until well-chilled.\nStrain into a Hurricane glass with ice.\nGarnish with a maraschino cherry and an orange wheel!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676310795/tipsytastings/skinny-hurricaine-cocktail-2000_jh1axt.jpg",
+           "created_by_mixologist": 5,
+           "date": "2022-12-20",
+           "liquors": [2, 44, 48],
+           "staple_ingredients": [22, 27, 25, 28],
+           "syrups": [32, 56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 11,
+        "fields": {
+           "name": "",
+           "category": 1,
+           "recipe": "",
+           "image": "",
+           "created_by_mixologist": 5,
+           "date": "2022-12-17",
+           "liquors": [],
+           "liqueurs": [],
+           "staple_ingredients": []
+        }
     }
-    
 ]
