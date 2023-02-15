@@ -6,7 +6,7 @@
            "name": "Long Island Iced Tea",
            "category": 1,
            "recipe": "½ ounce Vodka\n½ ounce Rum\n½ ounce Gin\n½ ounce Tequila\n½ ounce Triple Sec\n1 ounce sour mix\n1 ounce cola",
-           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/long-island-iced-tea_weg2ce.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676424596/tipsytastings/Long-Island-Iced-Tea-Cocktail-FT-RECIPE1222-6454b2a875f7461190cbae8d93f9dca1_rwvo0b.jpg",
            "created_by_mixologist": 1,
            "date": "2022-12-14"
         }
@@ -241,12 +241,102 @@
            "name": "Strawberry Gin Smash",
            "category": 1,
            "recipe": "Muddle 2 sliced up strawberries, 1 ounce simple syrup, and ½ ounce lime juice.\nStrain and add to a glass with ice and add 3 ounces of gin.\nTop with club soda and garnish with mint and some strawberry slices!",
-           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676418948/tipsytastings/strawberry-gin-smash-with-basil-300x300_c1ug66.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676418948/tipsytastings/strawberry-gin-smash-with-basil-300x300_c1ug66.jpg ",
            "created_by_mixologist": 2,
            "date": "2022-12-20",
            "liquors": [4],
            "staple_ingredients": [22, 37, 26, 41],
            "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 18,
+        "fields": {
+           "name": "Sidecar",
+           "category": 1,
+           "recipe": "Add 2 ounces brandy, bourbon, OR cognac, 1 ounce triple sec, and ¾ ounce of lemon juice to a cocktail shaker filled with ice.\nShake well and strain into a chilled cocktail glass.\nGarnish with a lemon twist and enjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676424413/tipsytastings/sidecar_mxd2ho.png",
+           "created_by_mixologist": 3,
+           "date": "2022-12-17",
+           "liquors": [5, 14, 89],
+           "liqueurs":[49],
+           "staple_ingredients": [20]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 19,
+        "fields": {
+           "name": "Brandy Alexander",
+           "category": 1,
+           "recipe": "Add 1½ ounces cognac, 1 ounce dark chocolate liqueur, and 1 ounce heavy cream into a shaker with ice.\nShake until well-chilled.\nStrain into a chilled glass and garnish with ground nutmeg.\nServe immediately!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676424414/tipsytastings/brandy-alexander_sfd2lu.jpg",
+           "created_by_mixologist": 4,
+           "date": "2022-12-18",
+           "liquors": [5],
+           "liqueurs":[14],
+           "staple_ingredients": [62]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 20,
+        "fields": {
+           "name": "Brandy Cobbler",
+           "category": 1,
+           "recipe": "Add 3 ounces of brandy and 1 ounce simple syrup to a glass with crushed ice.\nStir well and top with 2 ounces of club soda if desired.\nAdd orange slice, lemon slice, and other desired fruits for garnish.\nEnjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676424413/tipsytastings/brandy-cobbler_bpkvvm.jpg",
+           "created_by_mixologist": 5,
+           "date": "2022-12-19",
+           "liquors": [5],
+           "staple_ingredients": [41],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 18,
+        "fields": {
+           "name": "",
+           "category": 1,
+           "recipe": "",
+           "image": "",
+           "created_by_mixologist": 2,
+           "date": "2022-12-20",
+           "liquors": [],
+           "staple_ingredients": [],
+           "syrups": []
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 18,
+        "fields": {
+           "name": "",
+           "category": 1,
+           "recipe": "",
+           "image": "",
+           "created_by_mixologist": 2,
+           "date": "2022-12-20",
+           "liquors": [],
+           "staple_ingredients": [],
+           "syrups": []
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 18,
+        "fields": {
+           "name": "",
+           "category": 1,
+           "recipe": "",
+           "image": "",
+           "created_by_mixologist": 2,
+           "date": "2022-12-20",
+           "liquors": [],
+           "staple_ingredients": [],
+           "syrups": []
         }
     }
 ]
