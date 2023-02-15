@@ -488,5 +488,19 @@
         "fields": {
            "name": "Sugar"
         }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 71,
+        "fields": {
+           "name": "Angostura Bitters"
+        }
+    },
+    {
+        "model": "tipsytastingapi.stapleingredient",
+        "pk": 72,
+        "fields": {
+           "name": "Orange Bitters"
+        }
     }
 ]

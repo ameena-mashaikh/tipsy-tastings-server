@@ -62,7 +62,7 @@
            "name": "White Russian",
            "category": 1,
            "recipe": "Add 2 ounces Vodka and 1 ounce Coffee Liqueur to a glass with ice.\nTop with 1 ounce of heavy cream.\nStir until cold.",
-           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/white-russain_ke807s.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676482203/tipsytastings/White-Russian_EXPS_FT20_37102_F_0610_1_home_jj2yha.jpg",
            "created_by_mixologist": 5,
            "date": "2022-12-17",
            "liquors": [1],
@@ -296,47 +296,149 @@
     },
     {
         "model": "tipsytastingapi.cocktail",
-        "pk": 18,
+        "pk": 21,
         "fields": {
-           "name": "",
+           "name": "Old Fashioned",
            "category": 1,
-           "recipe": "",
-           "image": "",
-           "created_by_mixologist": 2,
-           "date": "2022-12-20",
-           "liquors": [],
-           "staple_ingredients": [],
-           "syrups": []
+           "recipe": "Add 3-4 dashes of bitters (Angostura or Orange), 1 teaspoon of sugar, and a few drops of water to an old fashioned glass and stir.\nAdd 2 ounces bourbon, ice, and stir.\nGarnish with an orange peel and enjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676482104/tipsytastings/OldFashioned_HERO_020520_619_ntw2gb.webp",
+           "created_by_mixologist": 1,
+           "date": "2022-12-18",
+           "liquors": [6, 89],
+           "staple_ingredients": [70, 71, 72]
         }
     },
     {
         "model": "tipsytastingapi.cocktail",
-        "pk": 18,
+        "pk": 22,
         "fields": {
-           "name": "",
+           "name": "Whiskey Sour",
            "category": 1,
-           "recipe": "",
-           "image": "",
+           "recipe": "Add 2 ounces bourbon, 1 ounce lemon juice, ¾ simple syrup, and 1 egg white into a cocktail shaker.\nDry shake for 10-15 seconds.\nAdd ice and shake again.\nStrain into a chilled glass.\nGarnish with an orange slice and a cocktail cherry!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676482104/tipsytastings/Editorial_04_WhiskeySour-v4-6x4_ruoi11.webp",
            "created_by_mixologist": 2,
-           "date": "2022-12-20",
-           "liquors": [],
-           "staple_ingredients": [],
-           "syrups": []
+           "date": "2022-12-19",
+           "liquors": [6, 89],
+           "staple_ingredients": [20, 64, 25],
+           "syrups": [56]
         }
     },
     {
         "model": "tipsytastingapi.cocktail",
-        "pk": 18,
+        "pk": 23,
         "fields": {
-           "name": "",
+           "name": "Manhattan",
            "category": 1,
-           "recipe": "",
-           "image": "",
-           "created_by_mixologist": 2,
+           "recipe": "Add 2 ounces rye whiskey, ½ ounce sweet vermouth, and 1-2 dashes Angostura bitters to a shaker.\nStir with ice.\nStrain into a chilled glass.\nGarnish with a cherry.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676482104/tipsytastings/Manhattan-Drink-Recipe_psehdf.jpg",
+           "created_by_mixologist": 3,
+           "date": "2022-12-18",
+           "liquors": [6, 96],
+           "staple_ingredients": [71, 25]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 24,
+        "fields": {
+           "name": "Maiden's Blush",
+           "category": 1,
+           "recipe": "Add 1⅔ ounce gin, ⅙ ounce absinthe blanche, ½ ounce lemon juice, ¼ ounce raspberry syrup, and ½ ounce chilled water to a cocktail shaker.\nShake with ice and strain into a chilled glass.\nGarnish with a lemon twist if desired!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484907/tipsytastings/Maidens-Blush_zfnptu.jpg",
+           "created_by_mixologist": 4,
+           "date": "2022-12-23",
+           "liquors": [4, 7],
+           "staple_ingredients": [20],
+           "syrups": [52]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 25,
+        "fields": {
+           "name": "Absinthe Spider Highball",
+           "category": 1,
+           "recipe": "Add a ½ ounce of absinthe verte, 2 dashes of angostura bitters, and 4 ounces of ginger ale into a glass with ice.\nStir and serve!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/spider-high-ball_vawsxh.webp",
+           "created_by_mixologist": 5,
            "date": "2022-12-20",
-           "liquors": [],
-           "staple_ingredients": [],
-           "syrups": []
+           "liquors": [8],
+           "staple_ingredients": [71, 45]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 26,
+        "fields": {
+           "name": "Cucumber & Mint Seltz",
+           "category": 1,
+           "recipe": "Pour 1⅔ ounce cucumber & mint botanical spirit and 5 ounces club soda to an ice-filled glass and stir.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484874/tipsytastings/cucumber-mint-fizz-cocktail-5_urdtxm.jpg",
+           "created_by_mixologist": 1,
+           "date": "2022-12-21",
+           "liquors": [10],
+           "staple_ingredients": [41]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 27,
+        "fields": {
+           "name": "Peach & Orange Blossom Seltz",
+           "category": 1,
+           "recipe": "Pour 1⅔ ounce peach & orange blossom botanical spirit and 5 ounces club soda into an ice-filled glass and stir.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/peach_orange_blossom_mj2j3n.png",
+           "created_by_mixologist": 2,
+           "date": "2022-12-21",
+           "liquors": [11],
+           "staple_ingredients": [41]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 28,
+        "fields": {
+           "name": "Marginy",
+           "category": 1,
+           "recipe": "Add ¾ ounce cognac, ¾ apple brandy, ½ ounce chartreuse, ¾ ounce lemon juice, and ⅓ simple syrup into a cocktail shaker filled with ice.\nShake and strain into a chilled glass.\nGarnish with a lemon slice if desired.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/marginy_jcn8wy.png",
+           "created_by_mixologist": 3,
+           "date": "2022-12-19",
+           "liquors": [12, 14],
+           "liqueurs": [12],
+           "staple_ingredients": [20],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 29,
+        "fields": {
+           "name": "Peach Violet Gin Sour",
+           "category": 1,
+           "recipe": "Add 2 ounces butterfly pea flower gin, 1 ounce lemon juice, ½ ounce peach syrup, ¼ ounce creme de violette, ¼ ounce simple syrup and 3 mint leaves into a cocktail shaker with ice.\nShake until chilled then strain into a glass.\nGarnish with an edible flower if desired and enjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/IMG_3330-3875710-500x500.jpg_gqix2b.webp",
+           "created_by_mixologist": 4,
+           "date": "2022-12-20",
+           "liquors": [20],
+           "liqueurs": [23],
+           "staple_ingredients": [20, 26],
+           "syrups": [47, 56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 30,
+        "fields": {
+           "name": "Fig Moscow Mule",
+           "category": 1,
+           "recipe": "Add 2 ounces fig vodka, ½ ounce simple syrup, ½ lime juice, and 6 ounces of ginger beer to a cocktail shaker with ice.\nShake well and strain into a moscow mule mug with ice.\nEnjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/fig-moscow-mule_u3hynm.webp",
+           "created_by_mixologist": 5,
+           "date": "2022-12-20",
+           "liquors": [62],
+           "staple_ingredients": [22],
+           "syrups": [56]
         }
     }
 ]

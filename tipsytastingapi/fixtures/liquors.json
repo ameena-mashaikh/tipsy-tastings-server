@@ -691,6 +691,13 @@
         "fields": {
            "label": "Blended Scotch Whisky"
         }
+    },
+    {
+        "model": "tipsytastingapi.liquor",
+        "pk": 100,
+        "fields": {
+           "label": "Sweet Vermouth"
+        }
     }
 
 ]
