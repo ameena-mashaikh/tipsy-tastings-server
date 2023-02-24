@@ -8,7 +8,10 @@
            "recipe": "½ ounce Vodka\n½ ounce Rum\n½ ounce Gin\n½ ounce Tequila\n½ ounce Triple Sec\n1 ounce sour mix\n1 ounce cola",
            "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676424596/tipsytastings/Long-Island-Iced-Tea-Cocktail-FT-RECIPE1222-6454b2a875f7461190cbae8d93f9dca1_rwvo0b.jpg",
            "created_by_mixologist": 1,
-           "date": "2022-12-14"
+           "date": "2022-12-14",
+           "liquors":[1, 4, 5, 6],
+           "liqueurs": [49],
+           "staple_ingredients": [42,52]
         }
     },
     {
@@ -403,7 +406,7 @@
            "recipe": "Add ¾ ounce cognac, ¾ apple brandy, ½ ounce chartreuse, ¾ ounce lemon juice, and ⅓ simple syrup into a cocktail shaker filled with ice.\nShake and strain into a chilled glass.\nGarnish with a lemon slice if desired.",
            "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/marginy_jcn8wy.png",
            "created_by_mixologist": 3,
-           "date": "2022-12-19",
+           "date": "2022-12-16",
            "liquors": [12, 14],
            "liqueurs": [12],
            "staple_ingredients": [20],

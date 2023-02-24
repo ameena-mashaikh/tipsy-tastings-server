@@ -3,55 +3,56 @@
         "model": "auth.user",
         "pk": 1,
         "fields": {
-            "first_name": "Naruto",
-            "last_name": "Uzumaki",
-            "email": "naruto@uzumaki.com",
-            "username": "NarutoUzumaki",
-            "password": "umfAPLCL"
+            "username": "tohruh",
+            "password": "pbkdf2_sha256$390000$7KI2vCyEAWFg7UGIRhbsTJ$AlV97HrEsGJgBSazhUJp36t7ER5vqp6JZrQwuDy6MAY=",
+            "email": "tohru@Honda.com",
+            "first_name": "Tohru",
+            "last_name": "Honda"
         }
     },
     {
         "model": "auth.user",
         "pk": 2,
         "fields": {
-            "first_name": "Don",
-            "last_name": "Draper",
-            "email": "don@draper.com",
-            "username": "DonDraper",
-            "password": "dondraper"
+            "username": "shiguresohma",
+            "password": "pbkdf2_sha256$390000$cEvPAAqGvDCVSYPdI2nFvi$W3bCvJNImPcg8Yu1Cnm7kA9+chBzvEWhfyWbOIrtcko=",
+            "email": "tohru@Honda.com",
+            "first_name": "Tohru",
+            "last_name": "Honda"
         }
     },
     {
         "model": "auth.user",
         "pk": 3,
         "fields": {
-            "first_name": "Gojo",
-            "last_name": "Satoru",
-            "email": "gojo@satoru.com",
-            "username": "GojoSatoru",
-            "password": "gojosatoru"
+            "username": "hinatashoyo",
+            "password": "pbkdf2_sha256$390000$T4oGeGdfCx6ssWKl9WvZUt$tP5D05v8MdHdybc4rVyRSR6CDKC7clxRcYlnW/X5Lbs=",
+            "email": "hinata@shoyo.com",
+            "first_name": "Hinata",
+            "last_name": "Shoyo"
         }
     },
     {
         "model": "auth.user",
         "pk": 4,
         "fields": {
-            "first_name": "Tohru",
-            "last_name": "Honda",
-            "email": "tohru@honda.com",
-            "username": "TohruHonda",
-            "password": "tohruhonda"
+            "username": "oikawatoru",
+            "password": "pbkdf2_sha256$390000$oa9zQlr2je1ZMRY4JLmJGy$MwdLBEHs8p2V6EYsp5bDJpjgOC5HZGiF8knCITu+ij0=",
+            "email": "oikawa@toru.com",
+            "first_name": "Toru",
+            "last_name": "Oikawa"
         }
     },
     {
         "model": "auth.user",
         "pk": 5,
         "fields": {
-            "first_name": "Tyrion",
-            "last_name": "Lannister",
-            "email": "tyrion@lannister.com",
-            "username": "TyrionLannister",
-            "password": "tyrionlannister"
+            "username": "fushiguromegumi",
+            "password": "pbkdf2_sha256$390000$kl5ymF4zUWQ1Fst4D4RZEc$1r8wT3k2wTxietPIseHyqcQKEMcX3JW/fVO4KqaRR1w=",
+            "email": "fushiguro@megumi.com",
+            "first_name": "Megumi",
+            "last_name": "Fushiguro"
         }
     }
 ]
+
