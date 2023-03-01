@@ -6,9 +6,12 @@
            "name": "Long Island Iced Tea",
            "category": 1,
            "recipe": "½ ounce Vodka\n½ ounce Rum\n½ ounce Gin\n½ ounce Tequila\n½ ounce Triple Sec\n1 ounce sour mix\n1 ounce cola",
-           "image": "https://www.simplejoy.com/wp-content/uploads/2021/04/long-island-iced-tea.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676424596/tipsytastings/Long-Island-Iced-Tea-Cocktail-FT-RECIPE1222-6454b2a875f7461190cbae8d93f9dca1_rwvo0b.jpg",
            "created_by_mixologist": 1,
-           "date": "2022-12-14"
+           "date": "2022-12-14",
+           "liquors":[1, 4, 5, 6],
+           "liqueurs": [49],
+           "staple_ingredients": [42,52]
         }
     },
     {
@@ -18,7 +21,7 @@
            "name": "Moscow Mule",
            "category": 1,
            "recipe": "Pour 2 ounces Vodka, ½ ounce Lime Juice, and 4 ounces Ginger Beer into a copper mug.\nAdd ice and garnish with a lime slice. Serve immediately!",
-           "image": "https://www.acouplecooks.com/wp-content/uploads/2019/06/Moscow-Mule-070.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/Moscow-Mule-070_iik6ss.jpg",
            "created_by_mixologist": 2,
            "date": "2022-12-15",
            "liquors": [1],
@@ -32,7 +35,7 @@
            "name": "Vodka Tonic",
            "category": 1,
            "recipe": "Fill a highball glass with ice.\nPour in 1½ ounces of vodka and stir several times.\nPour 4 ounces of tonic water and fill leaving space from the top.\nAdd a ½ ounce each of lemon juice and lime juice.\nGarnish with a lime wedge.",
-           "image": "https://www.acouplecooks.com/wp-content/uploads/2020/04/Vodka-Tonic-003.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/Vodka-Tonic-003_und4bi.jpg",
            "created_by_mixologist": 3,
            "date": "2022-12-15",
            "liquors": [1],
@@ -46,7 +49,7 @@
            "name": "Cosmopolitan",
            "category": 1,
            "recipe": "Place 1 ounce vodka or orange vodka, 1 ounce cranberry juice, ½ ounce Triple Sec, ½ ounce lemon juice, and ½ ounce simple syrup in a cocktail shaker with ice.\nShake 15 seconds until cold.\nStrain the liquid into a martini glass.",
-           "image": "https://www.acouplecooks.com/wp-content/uploads/2019/12/Cosmopolitan-Cocktail-006.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/Cosmopolitan-Cocktail-006_npxqig.jpg",
            "created_by_mixologist": 4,
            "date": "2022-12-16",
            "liquors": [1, 68],
@@ -62,13 +65,383 @@
            "name": "White Russian",
            "category": 1,
            "recipe": "Add 2 ounces Vodka and 1 ounce Coffee Liqueur to a glass with ice.\nTop with 1 ounce of heavy cream.\nStir until cold.",
-           "image": "https://www.acouplecooks.com/wp-content/uploads/2020/07/White-Russian-003.jpg",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676482203/tipsytastings/White-Russian_EXPS_FT20_37102_F_0610_1_home_jj2yha.jpg",
            "created_by_mixologist": 5,
            "date": "2022-12-17",
            "liquors": [1],
            "liqueurs": [18],
            "staple_ingredients": [62]
         }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 6,
+        "fields": {
+           "name": "Dark ’n Stormy",
+           "category": 1,
+           "recipe": "Add 2 ounces Dark Rum and ½ ounce of lime juice to a tall glass with ice.\nTop with about 5 ounces of ginger beer.\nStir.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676306316/tipsytastings/long-island-iced-tea_weg2ce.jpg",
+           "created_by_mixologist": 1,
+           "date": "2022-12-18",
+           "liquors": [44],
+           "staple_ingredients": [46, 22]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 7,
+        "fields": {
+           "name": "Classic Daiquiri",
+           "category": 1,
+           "recipe": "Add 2 ounces white rum, 1 ounce lime juice, and ½ ounce simple syrup into a cocktail shaker filled with ice.\nShake vigorously, then strain into a cocktail glass.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676310795/tipsytastings/classic-daiquiri-recipe-759294-13_preview-5b0ecc23ba6177003649f0ce_csa3ka.jpg",
+           "created_by_mixologist": 2,
+           "date": "2022-12-19",
+           "liquors": [2, 48],
+           "staple_ingredients": [22],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 8,
+        "fields": {
+           "name": "Piña Colada",
+           "category": 1,
+           "recipe": "Freeze ½ cup of pineapple chunks for at least three hours.\nAdd frozen pineapple, 1 ounce cream of coconut, 1½ ounces white rum, ½ ounce lime juice, and 1½ cups of ice to a blender.\nBlend until smooth.\nGarnish with a slice of pineapple and a maraschino cherry on top!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676310795/tipsytastings/pina-colada1_e7zm57.jpg",
+           "created_by_mixologist": 3,
+           "date": "2022-12-19",
+           "liquors": [2, 48],
+           "staple_ingredients": [30, 22, 25],
+           "syrups": [21]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 9,
+        "fields": {
+           "name": "Rum Punch",
+           "category": 1,
+           "recipe": "Add 1 ounce white rum, 1 ounce dark rum, 2 ounces pineapple juice, 1 ounce orange juice, and ½ lime juice to a highball glass.\nStir.\nFill the glass with ice and top with grenadine.\nGarnish with a cherry!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676310795/tipsytastings/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__08__13113544__rum-punch-720x720-article-e43bfecd823145f1bc1eae2c6d297393_pb6cmm.jpg",
+           "created_by_mixologist": 4,
+           "date": "2022-12-19",
+           "liquors": [2, 44, 48],
+           "staple_ingredients": [22, 27, 31, 25],
+           "syrups": [32]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 10,
+        "fields": {
+           "name": "Hurricane",
+           "category": 1,
+           "recipe": "Remove the seeds and skin from the passion fruit and add to a blender to puree.\nAdd 2 ounces white rum, 2 ounces dark rum, 1 ounce lime juice, 1 ounce orange juice, ½ ounce passion fruit puree, ½ ounce simple syrup, and 1 tsp grenadine into a shaker with ice.\nShake until well-chilled.\nStrain into a Hurricane glass with ice.\nGarnish with a maraschino cherry and an orange wheel!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676310795/tipsytastings/skinny-hurricaine-cocktail-2000_jh1axt.jpg",
+           "created_by_mixologist": 5,
+           "date": "2022-12-20",
+           "liquors": [2, 44, 48],
+           "staple_ingredients": [22, 27, 25, 28],
+           "syrups": [32, 56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 11,
+        "fields": {
+           "name": "Margarita",
+           "category": 1,
+           "recipe": "Add 1½ ounces tequila, 1 ounce triple sec, ½ simple syrup, and ¾ ounce lime juice to a cocktail shaker with ice.\nCover and shake vigorously.\nPour into a glass with ice and serve immediately.\nGarnish with a lime slice if desired!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676399190/tipsytastings/ba-margarita-1_krql5z.webp",
+           "created_by_mixologist": 1,
+           "date": "2022-12-16",
+           "liquors": [3],
+           "liqueurs": [49],
+           "staple_ingredients": [22],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 12,
+        "fields": {
+           "name": "Tequila Sunrise",
+           "category": 1,
+           "recipe": "Add 2 ounces blanco tequila and 4 ounces orange juice to a highball glass with ice.\nStir then top with ½ ounce grenadine which will sink to the bottom and create a layered effect.\nGarnish with an orange slice and a maraschino cherry.\nServe immediately!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676399189/tipsytastings/Tequila-Sunrise-003s_zr8wkz.webp",
+           "created_by_mixologist": 2,
+           "date": "2022-12-17",
+           "liquors": [3, 53],
+           "staple_ingredients": [27, 25],
+           "syrups":[32]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 13,
+        "fields": {
+           "name": "Paloma",
+           "category": 1,
+           "recipe": "Add 2 ounces tequila, 2 ounces grapefruit juice, 2 ounces, 2 ounces club soda, ½ ounce lime juice, and ½ ounce simple syrup into a glass.\nFill the remainder of the glass with ice and adjust sweetness to liking.\nGarnish with grapefruit wedge!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676399190/tipsytastings/paloma-recipe-1626285497_e2ngyx.jpg",
+           "created_by_mixologist": 3,
+           "date": "2022-12-18",
+           "liquors": [3],
+           "staple_ingredients": [41, 16, 22],
+           "syrups":[56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 14,
+        "fields": {
+           "name": "Gin & Tonic",
+           "category": 1,
+           "recipe": "Add 2 ounces gin and 4 to 6 ounces of tonic water to a highball glass with ice.\nStir gently so to not lose carbonation.\nGarnish with lime wedges and serve immediately!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676418942/tipsytastings/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__09__18090535__Gin-and-Tonic-720x720-recipe-c2e32c4cf53c4ed7a4de20af8e862a12_zvztir.jpg",
+           "created_by_mixologist": 4,
+           "date": "2022-12-17",
+           "liquors": [4],
+           "staple_ingredients": [53]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 15,
+        "fields": {
+           "name": "Tom Collins",
+           "category": 1,
+           "recipe": "Add 2 ounces gin, 1 ounce lemon juice, ½ ounce simple syrup to a glass.\nFill with ice, top with club soda, and stir.\nGarnish with a lemon slice and maraschino cherry!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676418948/tipsytastings/OLI_0921_Cocktail-TomCollins_04429-1b603f0_ricfi7.jpg",
+           "created_by_mixologist": 5,
+           "date": "2022-12-18",
+           "liquors": [4],
+           "staple_ingredients": [41, 20, 25],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 16,
+        "fields": {
+           "name": "Cucumber Cooler",
+           "category": 1,
+           "recipe": "Muddle 6 mint leaves and 4-6 cucumber slices in ½ ounce of lime juice and 1 ounce simple syrup until cucumbers are broken up.\nAdd ice and gin. Shake.\nDouble strain into a glass with ice and top with 4 ounces of tonic water.\nStir and enjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676418942/tipsytastings/TropicalCucumberCooler_630x420_oaykud.jpg",
+           "created_by_mixologist": 1,
+           "date": "2022-12-19",
+           "liquors": [4],
+           "staple_ingredients": [22, 13, 26, 53],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 17,
+        "fields": {
+           "name": "Strawberry Gin Smash",
+           "category": 1,
+           "recipe": "Muddle 2 sliced up strawberries, 1 ounce simple syrup, and ½ ounce lime juice.\nStrain and add to a glass with ice and add 3 ounces of gin.\nTop with club soda and garnish with mint and some strawberry slices!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676418948/tipsytastings/strawberry-gin-smash-with-basil-300x300_c1ug66.jpg ",
+           "created_by_mixologist": 2,
+           "date": "2022-12-20",
+           "liquors": [4],
+           "staple_ingredients": [22, 37, 26, 41],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 18,
+        "fields": {
+           "name": "Sidecar",
+           "category": 1,
+           "recipe": "Add 2 ounces brandy, bourbon, OR cognac, 1 ounce triple sec, and ¾ ounce of lemon juice to a cocktail shaker filled with ice.\nShake well and strain into a chilled cocktail glass.\nGarnish with a lemon twist and enjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676424413/tipsytastings/sidecar_mxd2ho.png",
+           "created_by_mixologist": 3,
+           "date": "2022-12-17",
+           "liquors": [5, 14, 89],
+           "liqueurs":[49],
+           "staple_ingredients": [20]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 19,
+        "fields": {
+           "name": "Brandy Alexander",
+           "category": 1,
+           "recipe": "Add 1½ ounces cognac, 1 ounce dark chocolate liqueur, and 1 ounce heavy cream into a shaker with ice.\nShake until well-chilled.\nStrain into a chilled glass and garnish with ground nutmeg.\nServe immediately!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676424414/tipsytastings/brandy-alexander_sfd2lu.jpg",
+           "created_by_mixologist": 4,
+           "date": "2022-12-18",
+           "liquors": [5],
+           "liqueurs":[14],
+           "staple_ingredients": [62]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 20,
+        "fields": {
+           "name": "Brandy Cobbler",
+           "category": 1,
+           "recipe": "Add 3 ounces of brandy and 1 ounce simple syrup to a glass with crushed ice.\nStir well and top with 2 ounces of club soda if desired.\nAdd orange slice, lemon slice, and other desired fruits for garnish.\nEnjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676424413/tipsytastings/brandy-cobbler_bpkvvm.jpg",
+           "created_by_mixologist": 5,
+           "date": "2022-12-19",
+           "liquors": [5],
+           "staple_ingredients": [41],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 21,
+        "fields": {
+           "name": "Old Fashioned",
+           "category": 1,
+           "recipe": "Add 3-4 dashes of bitters (Angostura or Orange), 1 teaspoon of sugar, and a few drops of water to an old fashioned glass and stir.\nAdd 2 ounces bourbon, ice, and stir.\nGarnish with an orange peel and enjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676482104/tipsytastings/OldFashioned_HERO_020520_619_ntw2gb.webp",
+           "created_by_mixologist": 1,
+           "date": "2022-12-18",
+           "liquors": [6, 89],
+           "staple_ingredients": [70, 71, 72]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 22,
+        "fields": {
+           "name": "Whiskey Sour",
+           "category": 1,
+           "recipe": "Add 2 ounces bourbon, 1 ounce lemon juice, ¾ simple syrup, and 1 egg white into a cocktail shaker.\nDry shake for 10-15 seconds.\nAdd ice and shake again.\nStrain into a chilled glass.\nGarnish with an orange slice and a cocktail cherry!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676482104/tipsytastings/Editorial_04_WhiskeySour-v4-6x4_ruoi11.webp",
+           "created_by_mixologist": 2,
+           "date": "2022-12-19",
+           "liquors": [6, 89],
+           "staple_ingredients": [20, 64, 25],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 23,
+        "fields": {
+           "name": "Manhattan",
+           "category": 1,
+           "recipe": "Add 2 ounces rye whiskey, ½ ounce sweet vermouth, and 1-2 dashes Angostura bitters to a shaker.\nStir with ice.\nStrain into a chilled glass.\nGarnish with a cherry.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676482104/tipsytastings/Manhattan-Drink-Recipe_psehdf.jpg",
+           "created_by_mixologist": 3,
+           "date": "2022-12-18",
+           "liquors": [6, 96],
+           "staple_ingredients": [71, 25]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 24,
+        "fields": {
+           "name": "Maiden's Blush",
+           "category": 1,
+           "recipe": "Add 1⅔ ounce gin, ⅙ ounce absinthe blanche, ½ ounce lemon juice, ¼ ounce raspberry syrup, and ½ ounce chilled water to a cocktail shaker.\nShake with ice and strain into a chilled glass.\nGarnish with a lemon twist if desired!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484907/tipsytastings/Maidens-Blush_zfnptu.jpg",
+           "created_by_mixologist": 4,
+           "date": "2022-12-23",
+           "liquors": [4, 7],
+           "staple_ingredients": [20],
+           "syrups": [52]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 25,
+        "fields": {
+           "name": "Absinthe Spider Highball",
+           "category": 1,
+           "recipe": "Add a ½ ounce of absinthe verte, 2 dashes of angostura bitters, and 4 ounces of ginger ale into a glass with ice.\nStir and serve!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/spider-high-ball_vawsxh.webp",
+           "created_by_mixologist": 5,
+           "date": "2022-12-20",
+           "liquors": [8],
+           "staple_ingredients": [71, 45]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 26,
+        "fields": {
+           "name": "Cucumber & Mint Seltz",
+           "category": 1,
+           "recipe": "Pour 1⅔ ounce cucumber & mint botanical spirit and 5 ounces club soda to an ice-filled glass and stir.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484874/tipsytastings/cucumber-mint-fizz-cocktail-5_urdtxm.jpg",
+           "created_by_mixologist": 1,
+           "date": "2022-12-21",
+           "liquors": [10],
+           "staple_ingredients": [41]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 27,
+        "fields": {
+           "name": "Peach & Orange Blossom Seltz",
+           "category": 1,
+           "recipe": "Pour 1⅔ ounce peach & orange blossom botanical spirit and 5 ounces club soda into an ice-filled glass and stir.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/peach_orange_blossom_mj2j3n.png",
+           "created_by_mixologist": 2,
+           "date": "2022-12-21",
+           "liquors": [11],
+           "staple_ingredients": [41]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 28,
+        "fields": {
+           "name": "Marginy",
+           "category": 1,
+           "recipe": "Add ¾ ounce cognac, ¾ apple brandy, ½ ounce chartreuse, ¾ ounce lemon juice, and ⅓ simple syrup into a cocktail shaker filled with ice.\nShake and strain into a chilled glass.\nGarnish with a lemon slice if desired.",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/marginy_jcn8wy.png",
+           "created_by_mixologist": 3,
+           "date": "2022-12-16",
+           "liquors": [12, 14],
+           "liqueurs": [12],
+           "staple_ingredients": [20],
+           "syrups": [56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 29,
+        "fields": {
+           "name": "Peach Violet Gin Sour",
+           "category": 1,
+           "recipe": "Add 2 ounces butterfly pea flower gin, 1 ounce lemon juice, ½ ounce peach syrup, ¼ ounce creme de violette, ¼ ounce simple syrup and 3 mint leaves into a cocktail shaker with ice.\nShake until chilled then strain into a glass.\nGarnish with an edible flower if desired and enjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/IMG_3330-3875710-500x500.jpg_gqix2b.webp",
+           "created_by_mixologist": 4,
+           "date": "2022-12-20",
+           "liquors": [20],
+           "liqueurs": [23],
+           "staple_ingredients": [20, 26],
+           "syrups": [47, 56]
+        }
+    },
+    {
+        "model": "tipsytastingapi.cocktail",
+        "pk": 30,
+        "fields": {
+           "name": "Fig Moscow Mule",
+           "category": 1,
+           "recipe": "Add 2 ounces fig vodka, ½ ounce simple syrup, ½ lime juice, and 6 ounces of ginger beer to a cocktail shaker with ice.\nShake well and strain into a moscow mule mug with ice.\nEnjoy!",
+           "image": "https://res.cloudinary.com/dnilbxkjf/image/upload/v1676484841/tipsytastings/fig-moscow-mule_u3hynm.webp",
+           "created_by_mixologist": 5,
+           "date": "2022-12-20",
+           "liquors": [62],
+           "staple_ingredients": [22],
+           "syrups": [56]
+        }
     }
-    
 ]

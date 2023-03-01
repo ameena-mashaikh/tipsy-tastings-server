@@ -13,6 +13,7 @@ python3 manage.py loaddata mixologists
 python3 manage.py loaddata liquors
 python3 manage.py loaddata liqueurs
 python3 manage.py loaddata staple_ingredients
+python3 manage.py loaddata syrups
 python3 manage.py loaddata category
 python3 manage.py loaddata cocktails
 python3 manage.py loaddata cocktail_posts

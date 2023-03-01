@@ -81,6 +81,7 @@ class CocktailView(ViewSet):
         cocktail.liquors.set(request.data["liquors"])
         cocktail.liqueurs.set(request.data["liqueurs"])
         cocktail.staple_ingredients.set(request.data["staple_ingredients"])
+        cocktail.syrups.set(request.data["syrups"])
         #cocktail.created_by_mixologist = Mixologist.objects.get(user=request.auth.user)
         cocktail.name = request.data["name"]
         cocktail.recipe = request.data["recipe"]
@@ -98,5 +99,5 @@ class CocktailSerializer(serializers.ModelSerializer):
     """JSON serializer for cocktails."""
     class Meta:
         model=Cocktail
-        fields=("id", "name", "category", "recipe", "image", "created_by_mixologist", "liquors", "liqueurs", "staple_ingredients", "post_cocktail" )
+        fields=("id", "name", "category", "recipe", "image", "created_by_mixologist", "liquors", "liqueurs", "staple_ingredients", "syrups", "post_cocktail" )
         depth = 2   
